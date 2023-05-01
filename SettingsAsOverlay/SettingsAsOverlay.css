@@ -1,0 +1,21 @@
+/* Displays settings as a thread-like overlay on right side of main window */
+.baseLayer-W6S8cY.stop-animations {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+.layer-86YKbF:not(.baseLayer-W6S8cY) {
+    background: transparent;
+    pointer-events: none;
+    align-items: flex-end;
+}
+.standardSidebarView-E9Pc3j {
+    flex-direction: row-reverse;
+    left: unset;
+    pointer-events: auto;
+    box-shadow: var(--elevation-high);
+}
+.sidebarRegionScroller-FXiQOh,
+.sidebarRegion-1VBisG,
+.contentRegion-3HkfJJ {
+    flex: 0 0 auto;
+}
