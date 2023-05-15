@@ -10,8 +10,8 @@
     "settings": {
         "liveSassCompile.settings.formats": [
             {
-                // "format": "compressed",
-                "format": "expanded",
+                "format": "compressed",
+                // "format": "expanded",
                 "extensionName": ".css",
                 "savePath": "~/../"
             },

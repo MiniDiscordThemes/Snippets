@@ -10,7 +10,7 @@
 @import "vars";
 @import "selectors";
 
-/* Highlight name if AKA available */
+// Highlight name if AKA available
 %usernameSection:has(%akaSection) %username {
     display: inline-flex;
     padding: 0 $usernamePadding;
@@ -83,6 +83,7 @@
     }
 }
 
+// Hide badges when AKA is shown
 %badgesSection {
     transition: $crossfade;
 

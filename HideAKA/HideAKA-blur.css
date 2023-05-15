@@ -1,17 +1,1 @@
-/**
- * @name HideAKA - Blur
- * @author Saltssaumure
- * @authorLink https://github.com/Saltssaumure
- * @version 1.0.0
- * @source https://github.com/MiniDiscordThemes/HideAKA
- * @description Hides nicknames with blur except when username is hovered over.
-*/
-/* Blur nicknames until hovered */
-.nicknames-3g5AJ9 {
-  filter: blur(4px);
-  transition: filter 0.2s;
-}
-
-:is(.container-3g15px, .usernameSection-3FppkT):hover .nicknames-3g5AJ9 {
-  filter: none;
-}
+.nicknames-3g5AJ9{filter:blur(4px);transition:filter .2s}:is(.container-3g15px,.usernameSection-3FppkT):hover .nicknames-3g5AJ9{filter:none}

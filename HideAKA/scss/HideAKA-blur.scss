@@ -9,7 +9,6 @@
 
 @import "selectors";
 
-/* Blur nicknames until hovered */
 %akaNames {
     filter: blur(4px);
     transition: filter 0.2s;
