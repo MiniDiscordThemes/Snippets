@@ -1,0 +1,45 @@
+:is(.container-3g15px, .usernameSection-3FppkT) {
+    @extend %usernameSection !optional;
+}
+
+.container-mAkQVR {
+    @extend %akaSection !optional;
+}
+
+:is(.userTagNoNickname-h9Bh88, .nickname-3P1RuO, .nameTag-H6kSJ0):first-child {
+    @extend %username !optional;
+}
+
+.nicknames-3g5AJ9 {
+    @extend %akaNames !optional;
+}
+
+.userProfileModalOuter-2wdWjU {
+    @extend %modalProfile !optional;
+}
+
+:is(.profileBadges-2pItdR, .badgeList-2aoHPw) {
+    @extend %badgesSection !optional;
+}
+
+.username-3JLfHz {
+    @extend %nameBeforeDiscrim !optional;
+}
+
+.userPopoutOuter-1OHwPL {
+    @extend %popoutProfile !optional;
+}
+
+.overlayBackground-2aa7wt {
+    @extend %profileBody !optional;
+}
+
+// horrible workarounds
+
+:hover {
+    @extend %hover !optional;
+}
+
+:active {
+    @extend %active !optional;
+}

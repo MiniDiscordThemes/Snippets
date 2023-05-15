@@ -1,0 +1,96 @@
+/**
+ * @name HideAKA - Badge
+ * @author Saltssaumure
+ * @authorLink https://github.com/Saltssaumure
+ * @version 1.0.0
+ * @source https://github.com/MiniDiscordThemes/HideAKA
+ * @description Displays nicknames in badge location only when username is hovered over.
+*/
+
+@import "vars";
+@import "selectors";
+
+/* Highlight name if AKA available */
+%usernameSection:has(%akaSection) %username {
+    display: inline-flex;
+    padding: 0 $usernamePadding;
+    margin-left: -$usernamePadding;
+    background: var(--profile-body-divider-color);
+    border-radius: 4px;
+}
+%nameBeforeDiscrim {
+    overflow-y: hidden;
+}
+
+// Hide AKA
+%akaSection {
+    position: absolute;
+    transform: translateY(-100%);
+    box-sizing: border-box;
+    max-height: $akaHeight;
+    max-width: $akaWidth;
+    padding: 7px 12px;
+    background: var(--profile-body-background-color);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: $crossfade, box-shadow 0.2s;
+
+    // width: 99999px;
+    // height: 99999px;
+
+    %modalProfile & {
+        top: $akaTopModal;
+        left: 160px - 16px;
+    }
+
+    %popoutProfile & {
+        top: -23px;
+        right: 0;
+    }
+
+    %akaNames {
+        -webkit-mask: linear-gradient(black 90%, transparent);
+    }
+}
+
+// Show AKA
+%akaSection {
+    %usernameSection%hover & {
+        opacity: 1;
+    }
+
+    %usernameSection%active & {
+        backdrop-filter: blur(4px);
+        box-shadow: var(--elevation-high);
+        transform: unset;
+        max-height: $akaHeightActive;
+        transition: max-height 1s;
+
+        %modalProfile & {
+            top: $akaTopModal - $akaHeight;
+        }
+
+        %popoutProfile & {
+            top: $akaTopProfile - $akaHeight;
+        }
+
+        %akaNames {
+            -webkit-mask: none;
+        }
+    }
+}
+
+%badgesSection {
+    transition: $crossfade;
+
+    :has(%usernameSection%hover %akaSection) & {
+        opacity: 0;
+    }
+}
+
+%profileBody {
+    overflow: visible;
+}
