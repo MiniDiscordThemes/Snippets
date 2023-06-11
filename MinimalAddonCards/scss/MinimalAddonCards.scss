@@ -1,0 +1,58 @@
+.replugged-addon-cards {
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.replugged-addon-card {
+    & > .horizontal-112GEH {
+        margin-bottom: 0 !important;
+
+        // Addon main info
+        h2 {
+            font-size: 0;
+            line-height: 0;
+
+            .heading-md-bold-3v5pnz {
+                line-height: 24px;
+            }
+        }
+
+        // Buttons container
+        .flex-2S1XBF {
+            margin-left: 0;
+            justify-content: flex-start;
+            gap: 5px !important;
+
+            .replugged-addon-icon {
+                // Delete addon
+                &:has([d^="M135.2 17.7"]) {
+                    order: -1;
+                }
+
+                // Reload active addon
+                &:has([d^="M463.5 224"]) {
+                    order: 2;
+                    margin-left: auto;
+                }
+
+                // Icons except reload
+                &:not(:has([d^="M463.5 224"])) svg {
+                    height: 1.5ch;
+                }
+            }
+
+            // Addon toggle
+            .container-1QtPKm {
+                order: 3;
+            }
+            &:not(:has([d^="M463.5 224"])) > .container-1QtPKm {
+                margin-left: auto;
+            }
+        }
+    }
+
+    // Addon description
+    & > span {
+        display: none;
+    }
+}
