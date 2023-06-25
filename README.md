@@ -32,7 +32,7 @@ Usage instructions for each snippet are found in its respective README.
 2. Open `Settings` > `Vencord` > `Vencord` > `Themes`.
 
 ## License
-[MIT License](https://github.com/MiniDiscordThemes/Snippets/blob/main/LICENSE)
+[MIT License](LICENSE)
 - <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with these snippets, just include the original license.
 
 ## Questions or suggestions?
