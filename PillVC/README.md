@@ -1,29 +1,23 @@
 # Pill VC
+![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Styles the voice chat user counter as an [estradiol](https://www.drugs.com/estradiol.html) pill.
 
 ![Pill VC in dark mode](https://minidiscordthemes.github.io/Snippets/PillVC/preview.avif)
 
 ## Usage
-
 ### Custom / Quick CSS
-
 Paste the following at the start of Custom / Quick CSS:
-
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/PillVC/PillVC.css");
 ```
-
 ### Vencord Themes
-
 ```
 https://minidiscordthemes.github.io/Snippets/PillVC/PillVC.css
 ```
 
 ## Customisation
-
 Paste the following at the end of Custom / Quick CSS, then edit the values:
-
 ```css
 :root {
     --pill-background: #56b8ac;

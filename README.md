@@ -3,8 +3,21 @@
 
 ***CSS snippets for Discord.***
 
-## Installation
-Snippets should be copy-pasted into your client mod's CSS file. Any lines beginning with `@import` should go at the very top of the file.
+## Catalogue
+### Working snippets
+- [Efficient Settings](EfficientSettings)
+- [Minimal Addon Cards](MinimalAddonCards)
+- [Mode Indicator](ModeIndicator)
+- [Pill VC](PillVC)
+- [Settings As Overlay](SettingsAsOverlay)
+- [Split Message Bars](SplitMessageBars)
+
+### Obsolete snippets
+- [Hide AKA](HideAKA)
+- [Show Original Link](ShowOriginalLink)
+
+## Usage
+Usage instructions for each snippet are found in its respective README.
 
 ### BetterDiscord
 1. Install [BetterDiscord](https://betterdiscord.app/).
@@ -16,8 +29,7 @@ Snippets should be copy-pasted into your client mod's CSS file. Any lines beginn
 
 ### Vencord
 1. Install [Vencord](https://github.com/Vendicated/Vencord).
-2. Open `Settings` > `Vencord` > `Vencord`.
-3. Toggle on `Enable Custom CSS` and click `Open QuickCSS File`.
+2. Open `Settings` > `Vencord` > `Vencord` > `Themes`.
 
 ## License
 [MIT License](https://github.com/MiniDiscordThemes/Snippets/blob/main/LICENSE)
