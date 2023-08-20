@@ -1,0 +1,15 @@
+{
+    "name": "discord-snippets",
+    "description": "CSS snippets for Discord.",
+    "repository": "github:MiniDiscordThemes/Snippets",
+    "author": "Saltssaumure <themes@saltssaumure.net>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "lint": "prettier ./ --check",
+        "lint:fix": "prettier ./ --write --log-level warn"
+    },
+    "devDependencies": {
+        "prettier": "^3.0.2"
+    }
+}
