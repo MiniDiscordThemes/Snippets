@@ -1,40 +1,54 @@
+[shield-repo-size]: https://img.shields.io/github/repo-size/Saltssaumure/template-discord-theme?label=Repository&style=flat-square "Total size"
+[github]:           https://github.com/Saltssaumure/template-discord-theme
+[issues]:           https://github.com/Saltssaumure/template-discord-theme/issues
+[discord]:          https://discord.gg/uy8nKQVatp
+
+[BetterDiscord]:    https://betterdiscord.app/
+[Replugged]:        https://replugged.dev/
+[Vencord]:          https://github.com/Vendicated/Vencord
+
 # Snippets
-![Total size](https://img.shields.io/github/repo-size/MiniDiscordThemes/Snippets?style=flat-square "Total size")
+[![Total repository size][shield-repo-size]][github]
 
 ***CSS snippets for Discord.***
 
 ## Catalogue
-### Working snippets
+### Working snippets ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
+- [Billboard](Billboard)
 - [Efficient Settings](EfficientSettings)
 - [Minimal Addon Cards](MinimalAddonCards)
+- [Minimal Auth Apps](MinimalAuthApps)
 - [Mode Indicator](ModeIndicator)
 - [Pill VC](PillVC)
+- [Role Tint](RoleTint)
 - [Settings As Overlay](SettingsAsOverlay)
-- [Split Message Bars](SplitMessageBars)
-
-### Obsolete snippets
-- [Hide AKA](HideAKA)
 - [Show Original Link](ShowOriginalLink)
+- [Split Message Bars](SplitMessageBars)
+- [Unread Shake](UnreadShake)
+
+### Obsolete snippets ![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
+- [Hide AKA](HideAKA)
 
 ## Usage
-Usage instructions for each snippet are found in its respective README.
+Specific links for each snippet are found in its respective README, see the catalogue above.
 
-### BetterDiscord
-1. Install [BetterDiscord](https://betterdiscord.app/).
-2. Open `Settings` > `BetterDiscord` > `Custom CSS`.
+### [BetterDiscord][BetterDiscord]
+1. Open `Settings` > `BetterDiscord` > `Custom CSS`.
 
-### Replugged
-1. Install [Replugged](https://replugged.dev/).
-2. Open `Settings` > `Replugged` > `Quick CSS`.
+### [Replugged][Replugged]
+1. Open `Settings` > `Replugged` > `Quick CSS`.
 
-### Vencord
-1. Install [Vencord](https://github.com/Vendicated/Vencord).
-2. Open `Settings` > `Vencord` > `Vencord` > `Themes`.
+### [Vencord][Vencord]
+#### QuickCSS
+1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord`.
+2. Click `Open QuickCSS File`.
+#### Online themes
+1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`.
 
 ## License
 [MIT License](LICENSE)
 - <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with these snippets, just include the original license.
 
 ## Questions or suggestions?
-- Post [an issue](https://github.com/MiniDiscordThemes/Snippets/issues) on GitHub.
-- Post in `#theme-support` on [my support server](https://discord.gg/uy8nKQVatp).
+- Post [an issue][issues] on GitHub.
+- Post in `#theme-support` on [my support server][discord].

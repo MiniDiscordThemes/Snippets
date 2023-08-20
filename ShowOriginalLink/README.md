@@ -1,5 +1,5 @@
 # Show Original Link
-![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square "Discord removed the ability to create Markdown-masked links by users.")
+![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Shows the original URL of Markdown-masked links.
 
@@ -9,9 +9,9 @@ Shows the original URL of Markdown-masked links.
 ### Custom / Quick CSS
 Paste the following at the start of Custom / Quick CSS:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/PillVC/PillVC.css");
+@import url("https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/ShowOriginalLink.css");
 ```
 ### Vencord Themes
 ```
-https://minidiscordthemes.github.io/Snippets/PillVC/PillVC.css
+https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/ShowOriginalLink.css
 ```
