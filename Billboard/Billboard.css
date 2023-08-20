@@ -4,7 +4,9 @@ body {
 
 #app-mount {
     transform: rotate(10deg) skew(10deg) scale(0.6);
-    box-shadow: 0 0 0 3vh silver, 0 0 20vh 5vh #fff5;
+    box-shadow:
+        0 0 0 3vh silver,
+        0 0 20vh 5vh #fff5;
     overflow: visible;
 }
 

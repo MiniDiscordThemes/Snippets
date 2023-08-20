@@ -36,7 +36,9 @@
     z-index: 1;
     pointer-events: none;
     opacity: 0;
-    transition: $crossfade, box-shadow 0.2s;
+    transition:
+        $crossfade,
+        box-shadow 0.2s;
 
     // width: 99999px;
     // height: 99999px;

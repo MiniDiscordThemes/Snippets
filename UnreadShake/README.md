@@ -1,7 +1,7 @@
 # Unread Shake
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
-Server and channels with unread messages will shake.
+Servers and channels with unread messages will shake.
 
 ![Unread Shake on a server and channel](preview.gif)
 
