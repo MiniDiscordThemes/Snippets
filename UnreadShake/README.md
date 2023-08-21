@@ -6,7 +6,8 @@ Servers and channels with unread messages will shake.
 ![Unread Shake on a server and channel](preview.gif)
 
 ## Usage
-Paste the following at the start of Custom / Quick CSS:
+### Custom / Quick CSS
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/UnreadShake/UnreadShake.css");
 ```

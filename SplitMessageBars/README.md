@@ -1,5 +1,5 @@
 # Split Message Bars
-![Status: working](https://img.shields.io/badge/status-working-green)
+![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Positions both the *new messages* and *viewing old messages* bars on top of the channel text area.
 
@@ -7,7 +7,7 @@ Positions both the *new messages* and *viewing old messages* bars on top of the 
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/SplitMessageBars/SplitMessageBars.css");
 ```

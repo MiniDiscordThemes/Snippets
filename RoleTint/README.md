@@ -7,7 +7,7 @@ User role colour displayed as a tint overlay rather than a dot.
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
 ```

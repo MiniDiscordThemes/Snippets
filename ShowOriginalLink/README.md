@@ -7,7 +7,7 @@ Shows the original URL of Markdown-masked links.
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/ShowOriginalLink.css");
 ```

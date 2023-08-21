@@ -7,7 +7,7 @@ Styles the voice chat user counter as an [estradiol](https://www.drugs.com/estra
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/PillVC/PillVC.css");
 ```

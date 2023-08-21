@@ -7,7 +7,7 @@ Turns the entirety of Discord into a billboard. Warning: this is just for fun, a
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/Billboard/Billboard.css");
 ```

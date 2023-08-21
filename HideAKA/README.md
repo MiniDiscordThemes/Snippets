@@ -5,11 +5,11 @@ Hides the AKA section in user profiles until hovered.
 
 | With blur                              | As badge                                 |
 | -------------------------------------- | ---------------------------------------- |
-| ![Hide AKA in blur][preview-blur.avif] | ![Hide AKA as badge][preview-badge.avif] |
+| ![Hide AKA in blur](preview-blur.avif) | ![Hide AKA as badge](preview-badge.avif) |
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/HideAKA/HideAKA.css");
 ```

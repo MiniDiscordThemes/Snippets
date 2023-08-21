@@ -7,7 +7,7 @@ Shortens the right-click settings menu by hiding all options that only open the 
 
 ## Usage
 ### Custom / Quick CSS
-Paste the following at the start of Custom / Quick CSS:
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/EfficientSettings/EfficientSettings.css");
 ```
