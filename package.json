@@ -7,9 +7,11 @@
     "private": true,
     "scripts": {
         "lint": "prettier ./ --check",
-        "lint:fix": "prettier ./ --write --log-level warn"
+        "lint:fix": "prettier ./ --write --log-level warn",
+        "avif": "avif --input='**/*.{png,gif,jpg}'"
     },
     "devDependencies": {
-        "prettier": "^3.0.2"
+        "prettier": "^3.0.2",
+        "avif": "^0.4.2"
     }
 }
