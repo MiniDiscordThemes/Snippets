@@ -3,10 +3,17 @@
 
 A heavily minimised look for Replugged and Vencord addon cards.
 
-![Minimal Addon Cards applied to Replugged plugin page](preview.avif)
+| Replugged                                                             | Vencord                                                              |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| ![Minimal Addon Cards applied to Replugged themes page](preview1.avif) | ![Minimal Addon Cards applied to Vencord themes page](preview2.avif) |
 
 ## Usage
-Paste the following at the start of Quick CSS:
+### Custom / Quick CSS
+Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/MinimalAddonCards/MinimalAddonCards.css");
+```
+### Vencord Themes
+```
+https://minidiscordthemes.github.io/Snippets/MinimalAddonCards/MinimalAddonCards.css
 ```
