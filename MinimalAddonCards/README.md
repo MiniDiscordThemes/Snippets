@@ -1,7 +1,7 @@
 # Minimal Addon Cards
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
-A heavily minimised look for Replugged addon cards.
+A heavily minimised look for Replugged and Vencord addon cards.
 
 ![Minimal Addon Cards applied to Replugged plugin page](preview.avif)
 

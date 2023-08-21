@@ -1,0 +1,51 @@
+@use "./vars" as *;
+
+@mixin full($SIDE: "top") {
+    @include body($SIDE);
+    &::before {
+        @include arrow($SIDE);
+    }
+}
+
+@mixin body($SIDE) {
+    visibility: hidden;
+
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    z-index: 1;
+
+    @if $SIDE == "top" {
+        bottom: 100%;
+    } @else {
+        top: 100%;
+    }
+
+    background: var(--background-floating);
+    box-shadow: var(--elevation-high);
+    border-radius: 5px;
+    padding: $padding;
+    max-width: 298px;
+    height: fit-content;
+
+    -webkit-line-clamp: unset;
+    word-break: break-word;
+    pointer-events: none;
+    overflow: visible;
+}
+
+@mixin arrow($SIDE) {
+    content: "";
+    display: block;
+    position: absolute;
+    right: calc($padding + ($toggle / 2) - 5px);
+    border: 5px solid transparent;
+
+    @if $SIDE == "top" {
+        top: 100%;
+        border-top-color: var(--background-floating);
+    } @else {
+        bottom: 100%;
+        border-bottom-color: var(--info-danger-foreground);
+    }
+}
