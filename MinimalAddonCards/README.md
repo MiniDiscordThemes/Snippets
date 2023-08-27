@@ -3,8 +3,8 @@
 
 A heavily minimised look for Replugged and Vencord addon cards.
 
-| Replugged                                                             | Vencord                                                              |
-| --------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Replugged                                                              | Vencord                                                              |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | ![Minimal Addon Cards applied to Replugged themes page](preview1.avif) | ![Minimal Addon Cards applied to Vencord themes page](preview2.avif) |
 
 ## Usage
