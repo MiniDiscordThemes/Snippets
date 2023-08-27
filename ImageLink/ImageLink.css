@@ -1,0 +1,16 @@
+.downloadLink-3cavAH {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+    opacity: 0;
+}
+.downloadLink-3cavAH:hover {
+    opacity: 1;
+    text-decoration: none;
+}
