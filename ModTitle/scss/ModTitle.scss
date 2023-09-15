@@ -1,0 +1,35 @@
+// Wordmark by client mod
+.wordmark-2u86JB {
+    pointer-events: unset;
+    padding: 0;
+
+    > svg {
+        display: none;
+    }
+
+    &::after {
+        position: absolute;
+        top: 4px;
+        padding: 4px 9px 3px;
+        font-size: 9px;
+        letter-spacing: 0.4px;
+        white-space: nowrap;
+        font-family: var(--font-headline);
+
+        content: "Modified Discord";
+
+        :root:has(#vencord-css-core) & {
+            content: "Vencord";
+        }
+        :root:has(link[href^="replugged"]) & {
+            content: "Replugged";
+        }
+        .bd-transparency & {
+            content: "BetterDiscord";
+        }
+        :root:has(script[src^="chrome-extension://cpojbkbhfkkljmlojagocnbmiaagkhkn"])
+        {
+            content: "Shelter";
+        }
+    }
+}
