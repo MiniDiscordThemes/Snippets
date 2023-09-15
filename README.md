@@ -16,9 +16,10 @@
 ### Working snippets ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 - [Billboard](Billboard)
 - [Efficient Settings](EfficientSettings)
-- [Minimal Addon Cards](MinimalAddonCards)
+- [Image Link](ImageLink)
 - [Minimal Auth Apps](MinimalAuthApps)
 - [Mode Indicator](ModeIndicator)
+- [Mod Title](ModTitle)
 - [Pill VC](PillVC)
 - [Role Tint](RoleTint)
 - [Settings As Overlay](SettingsAsOverlay)
@@ -26,7 +27,10 @@
 - [Split Message Bars](SplitMessageBars)
 - [Unread Shake](UnreadShake)
 
-### Obsolete snippets ![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
+### Moved snippets ![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
+- [Minimal Addon Cards](MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
+
+### Discontinued snippets ![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
 - [Hide AKA](HideAKA)
 
 ## Usage
