@@ -1,4 +1,6 @@
+# Folders
+/node_modules
+
+# File types
 *.png
 *.gif
-
-/node_modules

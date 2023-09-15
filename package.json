@@ -1,17 +1,17 @@
 {
-    "name": "discord-snippets",
-    "description": "CSS snippets for Discord.",
-    "repository": "github:MiniDiscordThemes/Snippets",
-    "author": "Saltssaumure <themes@saltssaumure.net>",
-    "license": "MIT",
-    "private": true,
-    "scripts": {
-        "lint": "prettier ./ --check",
-        "lint:fix": "prettier ./ --write --log-level warn",
-        "avif": "avif --input='**/*.{png,gif,jpg}'"
-    },
-    "devDependencies": {
-        "prettier": "^3.0.2",
-        "avif": "^0.4.2"
-    }
+  "name": "discord-snippets",
+  "description": "CSS snippets for Discord.",
+  "repository": "github:MiniDiscordThemes/Snippets",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "prettier ./ --check",
+    "lint:fix": "prettier ./ --write --log-level warn",
+    "avif": "avif --input='**/*.{png,gif,jpg}'"
+  },
+  "devDependencies": {
+    "avif": "^0.4.3",
+    "prettier": "^3.0.3"
+  }
 }

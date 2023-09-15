@@ -1,21 +1,21 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ],
-    "settings": {
-        "liveSassCompile.settings.formats": [
-            {
-                "format": "compressed",
-                "extensionName": ".css",
-                "savePath": "~/../"
-            }
-        ],
-        "liveSassCompile.settings.generateMap": false,
-        "liveSassCompile.settings.showOutputWindowOn": "Information",
-        "liveSassCompile.settings.watchOnLaunch": true,
-        "editor.formatOnSaveMode": "modificationsIfAvailable",
-        "editor.formatOnSave": false
+  "folders": [
+    {
+      "path": "."
     }
+  ],
+  "settings": {
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "extensionName": ".css",
+        "savePath": "~/../"
+      }
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.showOutputWindowOn": "Information",
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.formatOnSave": false
+  }
 }

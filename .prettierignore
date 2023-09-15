@@ -1,5 +1,7 @@
+# Folders
 /.github
 /node_modules
 
+# Files
 LICENSE
-*.md
+pnpm-lock.yaml
