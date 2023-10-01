@@ -1,7 +1,7 @@
 # Avatar Decoration Checkmark
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
-Adds the Twitter Verified checkmark after the username of anyone using an avatar decoration.
+Adds the Twitter Verified checkmark after the username of anyone using a paid avatar decoration.
 
 >**OIRNOIR** ([Replugged : #plugin-dev](https://discord.com/channels/1000926524452647132/1000955966520557689/1157562169303515136))
 >I wonder how complicated it would be to create a plugin that added a blue checkmark (or some other sarcastic indicator) to users using one of the paid avatar decorations
