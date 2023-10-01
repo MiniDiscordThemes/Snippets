@@ -24,7 +24,7 @@
         :root:has(link[href^="replugged"]) & {
             content: "Replugged";
         }
-        .bd-transparency & {
+        :root:has(bd-body) & {
             content: "BetterDiscord";
         }
         :root:has(script[src^="chrome-extension://cpojbkbhfkkljmlojagocnbmiaagkhkn"])
