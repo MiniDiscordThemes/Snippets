@@ -24,5 +24,13 @@ Paste the following at the start:
 https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/main.css
 ```
 
+## Customisation
+To change the checkmark to another image or svg:
+```css
+:root {
+    --adc-badge: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/180px-Smiley.svg.png");
+}
+```
+
 ## Includes
 - [sass-fairy](https://github.com/roydukkey/sass-fairy) by [roydukkey](https://github.com/roydukkey) - [MIT License](https://github.com/roydukkey/sass-fairy/blob/master/LICENSE)
