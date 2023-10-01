@@ -5,6 +5,18 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@sass-fairy/exception':
+    specifier: ^1.1.1
+    version: 1.1.1
+  '@sass-fairy/list':
+    specifier: ^1.2.4
+    version: 1.2.4
+  '@sass-fairy/math':
+    specifier: ^1.0.3
+    version: 1.0.3
+  '@sass-fairy/meta':
+    specifier: ^1.0.2
+    version: 1.0.2
   avif:
     specifier: ^0.4.4
     version: 0.4.4
@@ -32,6 +44,30 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@sass-fairy/exception@1.1.1:
+    resolution: {integrity: sha512-DP3dwerkS/gE79CaCzaE46zkTSWxmUc8Q/8Io6FC9qYRaNJ5aR8l1IvRbEe6ZnsnVE1+Ow1XOzC9uL2eeh62Hg==}
+    dev: true
+
+  /@sass-fairy/list@1.2.4:
+    resolution: {integrity: sha512-gs+96qO1kqPbnDU0tqG9/V77ceUXtA8grYQ554jIEQKYerFRs8usUs7KUu7JZJfkmEDpyoDbvNm18vr1WVgz6w==}
+    dependencies:
+      '@sass-fairy/exception': 1.1.1
+      '@sass-fairy/math': 1.0.3
+      '@sass-fairy/meta': 1.0.2
+    dev: true
+
+  /@sass-fairy/math@1.0.3:
+    resolution: {integrity: sha512-Lg/0vwx9Y7BSl/hTy3zO13bObx3dz8wkV/G6suX8B2j3IloXMGZmvdlmGwH+8J4e9/nUA/Yv3N9B6+W/IdLHmw==}
+    dependencies:
+      '@sass-fairy/exception': 1.1.1
+    dev: true
+
+  /@sass-fairy/meta@1.0.2:
+    resolution: {integrity: sha512-LLQnuY5kLdsGjGM+r94y3xew1wi7iok4Ciw43fYC9fCtyvwbeohMA0OK4vjl2iP9RaGIMEWfpjX7WZ0gSc5sSQ==}
+    dependencies:
+      '@sass-fairy/exception': 1.1.1
+    dev: true
 
   /ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}

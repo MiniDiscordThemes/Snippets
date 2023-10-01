@@ -11,6 +11,10 @@
     "avif": "avif --input='**/*.{png,gif,jpg}'"
   },
   "devDependencies": {
+    "@sass-fairy/exception": "^1.1.1",
+    "@sass-fairy/list": "^1.2.4",
+    "@sass-fairy/math": "^1.0.3",
+    "@sass-fairy/meta": "^1.0.2",
     "avif": "^0.4.4",
     "prettier": "^3.0.3"
   }

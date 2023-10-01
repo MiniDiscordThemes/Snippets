@@ -53,6 +53,10 @@ Specific links for each snippet are found in its respective README, see the cata
 [MIT License](LICENSE)
 - <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with these snippets, just include the original license.
 
+### Includes
+#### [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
+- [sass-fairy](https://github.com/roydukkey/sass-fairy) by [roydukkey](https://github.com/roydukkey) - [MIT License](https://github.com/roydukkey/sass-fairy/blob/master/LICENSE)
+
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
 - Post in `#theme-support` on [my support server][discord].

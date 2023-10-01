@@ -1,0 +1,27 @@
+// Convert into selectors
+
+@use "./vars";
+@use "sass:map";
+@use "@sass-fairy/list";
+
+$_exceptionList: list.empty(
+    $separator: comma
+);
+$_wrapperList: list.empty(
+    $separator: comma
+);
+$_usernameList: list.empty(
+    $separator: comma
+);
+
+@each $src in vars.$exceptionSrcs {
+    $_exceptionList: append($_exceptionList, "img[src*='#{$src}']");
+}
+@each $location, $selectors in vars.$locations {
+    $_wrapperList: append($_wrapperList, map.get($selectors, "wrapper"));
+    $_usernameList: append($_usernameList, map.get($selectors, "username"));
+}
+
+$exception: list.to-string($_exceptionList);
+$wrapper: list.to-string($_wrapperList);
+$username: list.to-string($_usernameList);

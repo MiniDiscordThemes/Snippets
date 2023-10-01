@@ -23,3 +23,6 @@ Paste the following at the start:
 ```
 https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/main.css
 ```
+
+## Includes
+- [sass-fairy](https://github.com/roydukkey/sass-fairy) by [roydukkey](https://github.com/roydukkey) - [MIT License](https://github.com/roydukkey/sass-fairy/blob/master/LICENSE)
