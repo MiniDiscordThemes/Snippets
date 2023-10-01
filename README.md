@@ -14,6 +14,7 @@
 
 ## Catalogue
 ### Working snippets ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
+- [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
 - [Billboard](Billboard)
 - [Efficient Settings](EfficientSettings)
 - [Image Link](ImageLink)
