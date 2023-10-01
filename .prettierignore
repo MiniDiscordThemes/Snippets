@@ -2,6 +2,10 @@
 /.github
 /node_modules
 
+# File types
+*.md
+*.css
+
 # Files
 LICENSE
 pnpm-lock.yaml
