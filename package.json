@@ -11,7 +11,7 @@
     "avif": "avif --input='**/*.{png,gif,jpg}'"
   },
   "devDependencies": {
-    "avif": "^0.4.3",
+    "avif": "^0.4.4",
     "prettier": "^3.0.3"
   }
 }
