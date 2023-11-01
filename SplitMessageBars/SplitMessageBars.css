@@ -1,24 +1,24 @@
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-.barBase-3xxDXu {
+.barBase__4e0ba {
     --bar-height: 24px;
     --bar-edges: 16px;
 }
-.messagesWrapper-RpOMA3:has(.newMessagesBar-1hF-9G):has(.jumpToPresentBar-1cEnH0) .barBase-3xxDXu {
+.messagesWrapper_ea2b0b:has(.newMessagesBar__8b6d7):has(.jumpToPresentBar__0ff7f) .barBase__4e0ba {
     align-items: flex-start;
     height: var(--bar-height);
     overflow: hidden;
     width: calc(50% - var(--bar-edges));
 }
-.newMessagesBar-1hF-9G {
+.newMessagesBar__8b6d7 {
     border-radius: 8px 8px 0 0;
     inset: auto var(--bar-edges) 0;
     padding-bottom: 8px;
 }
-.messagesWrapper-RpOMA3:has(.jumpToPresentBar-1cEnH0) .newMessagesBar-1hF-9G {
+.messagesWrapper_ea2b0b:has(.jumpToPresentBar__0ff7f) .newMessagesBar__8b6d7 {
     left: auto;
 }
-.newMessagesBar-1hF-9G:hover .span-3lFnWr,
-.jumpToPresentBar-1cEnH0:hover .barButtonMain-2GIx4o {
+.newMessagesBar__8b6d7:hover .span_a7874a,
+.jumpToPresentBar__0ff7f:hover .barButtonMain__0f5c6 {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;

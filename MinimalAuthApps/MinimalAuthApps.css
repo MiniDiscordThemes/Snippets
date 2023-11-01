@@ -1,10 +1,10 @@
-.authedApp-8q3NA9 {
+.authedApp__51b26 {
     max-height: 32px;
     box-sizing: content-box;
     overflow: hidden;
     transition: max-height 1s;
 }
 
-.authedApp-8q3NA9:hover {
+.authedApp__51b26:hover {
     max-height: 100vh;
 }

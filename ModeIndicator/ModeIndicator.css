@@ -1,5 +1,5 @@
 /* Light/dark mode indicator on title bar */
-:is(.titleBar-1it3bQ, .titleBar-3AIemB)::after {
+.titleBar__01af6::after {
     position: absolute;
     top: -4px;
     right: 84px;
@@ -12,9 +12,9 @@
     color: var(--text-muted);
     font-family: var(--font-primary);
 }
-.theme-dark :is(.titleBar-1it3bQ, .titleBar-3AIemB)::after {
+.theme-dark .titleBar__01af6::after {
     content: "Dark mode";
 }
-.theme-light :is(.titleBar-1it3bQ, .titleBar-3AIemB)::after {
+.theme-light .titleBar__01af6::after {
     content: "Light mode";
 }

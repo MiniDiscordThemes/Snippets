@@ -4,24 +4,24 @@ $checkmark: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 // Wrapper and username selectors for each avatar decoration location
 $locations: (
     "profile": (
-        "wrapper": ".profileColors-2AgAV4",
-        "username": ":is(.nickname-3P1RuO, .container-3g15px .text-lg-semibold-UQkeZc)"
+        "wrapper": ".profileColors__2e2f0",
+        "username": ":is(.nickname__3d1d7, .container-3g15px .text-lg-semibold__84aef)"
     ),
     "message": (
-        "wrapper": ".contents-2MsGLg",
-        "username": ".username-h_Y3Us:not(.vc-rdb-view .username-h_Y3Us)"
+        "wrapper": ".contents_f41bb2",
+        "username": ".username_d30d99:not(.vc-rdb-view .username_d30d99)"
     ),
     "dm-header": (
-        "wrapper": ".container-1yy5xN",
-        "username": ".header-1dhDWV"
+        "wrapper": ".container_b03b4b",
+        "username": ".header__4080b"
     ),
     "member-list": (
-        "wrapper": ".member-2gU6Ar",
-        "username": ".username-3_PJ5r"
+        "wrapper": ".member_aa4760",
+        "username": ".username_d272d6"
     ),
     "dm-list": (
-        "wrapper": ".channel-1Shao0",
-        "username": ".overflow-1wOqNV"
+        "wrapper": ".channel_c21703",
+        "username": ".overflow__87fe8"
     )
 );
 
