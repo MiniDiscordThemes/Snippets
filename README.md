@@ -29,13 +29,18 @@
 - [Unread Shake](UnreadShake)
 
 ### Moved snippets ![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
-- [Minimal Addon Cards](MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
+- [Minimal Addon Cards](_dead/MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
 
 ### Discontinued snippets ![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
-- [Hide AKA](HideAKA)
+- [Hide AKA](_dead/HideAKA)
 
 ## Usage
-Specific links for each snippet are found in its respective README, see the catalogue above.
+Some snippets have additional customisation options. See the snippet's README for more information.
+
+To use a snippet, add the following to the top of your Quick / Custom CSS file:
+```css
+@import url('https://minidiscordthemes.github.io/Snippets/<snippet-name>/main.css');
+```
 
 ### [BetterDiscord][BetterDiscord]
 1. Open `Settings` > `BetterDiscord` > `Custom CSS`.
@@ -44,17 +49,14 @@ Specific links for each snippet are found in its respective README, see the cata
 1. Open `Settings` > `Replugged` > `Quick CSS`.
 
 ### [Vencord][Vencord]
-#### QuickCSS
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord`.
 2. Click `Open QuickCSS File`.
-#### Online themes
-1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`.
 
 ## License
 [MIT License](LICENSE)
 - <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with these snippets, just include the original license.
 
-### Includes
+### Credits
 #### [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
 - [sass-fairy](https://github.com/roydukkey/sass-fairy) by [roydukkey](https://github.com/roydukkey) - [MIT License](https://github.com/roydukkey/sass-fairy/blob/master/LICENSE)
 
