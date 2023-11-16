@@ -9,9 +9,5 @@ Displays settings as a thread-like overlay on the right side of the main window.
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css
+@import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/main.css");
 ```

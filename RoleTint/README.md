@@ -9,9 +9,5 @@ User role colour displayed as a tint overlay rather than a dot.
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/RoleTint/RoleTint.css
+@import url("https://minidiscordthemes.github.io/Snippets/RoleTint/main.css");
 ```

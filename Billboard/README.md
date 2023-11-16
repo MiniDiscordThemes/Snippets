@@ -9,9 +9,5 @@ Turns the entirety of Discord into a billboard. Warning: this is just for fun, a
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/Billboard/Billboard.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/Billboard/Billboard.css
+@import url("https://minidiscordthemes.github.io/Snippets/Billboard/main.css");
 ```

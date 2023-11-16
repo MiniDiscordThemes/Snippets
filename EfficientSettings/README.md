@@ -9,9 +9,5 @@ Shortens the right-click settings menu by hiding all options that only open the 
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/EfficientSettings/EfficientSettings.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/EfficientSettings/EfficientSettings.css
+@import url("https://minidiscordthemes.github.io/Snippets/EfficientSettings/main.css");
 ```

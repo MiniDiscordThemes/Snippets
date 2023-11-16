@@ -9,9 +9,5 @@ Positions both the *new messages* and *viewing old messages* bars on top of the 
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/SplitMessageBars/SplitMessageBars.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/SplitMessageBars/SplitMessageBars.css
+@import url("https://minidiscordthemes.github.io/Snippets/SplitMessageBars/main.css");
 ```

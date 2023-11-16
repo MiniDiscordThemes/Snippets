@@ -1,4 +1,1 @@
-/* Shortens right-click settings menu */
-#user-settings-cog > .scroller__750f5 > .item__183e8 {
-    display: none;
-}
+@import url("https://minidiscordthemes.github.io/Snippets/EfficientSettings/main.css");

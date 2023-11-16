@@ -9,9 +9,5 @@ Shows the original URL of Markdown-masked links.
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/ShowOriginalLink.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/ShowOriginalLink.css
+@import url("https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/main.css");
 ```

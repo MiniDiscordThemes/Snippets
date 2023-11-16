@@ -17,9 +17,5 @@ If none of the above are detected, the wordmark will display "Modified Discord".
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/ModTitle/ModTitle.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/ModTitle/ModTitle.css
+@import url("https://minidiscordthemes.github.io/Snippets/ModTitle/main.css");
 ```

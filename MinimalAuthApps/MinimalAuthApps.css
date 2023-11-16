@@ -1,10 +1,1 @@
-.authedApp__51b26 {
-    max-height: 32px;
-    box-sizing: content-box;
-    overflow: hidden;
-    transition: max-height 1s;
-}
-
-.authedApp__51b26:hover {
-    max-height: 100vh;
-}
+@import url("https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/main.css");

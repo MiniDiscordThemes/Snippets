@@ -9,9 +9,5 @@ A minimised look for authorised app cards. Slides open on hover to reveal full i
 ### Custom / Quick CSS
 Paste the following at the start:
 ```css
-@import url("https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/MinimalAuthApps.css");
-```
-### Vencord Themes
-```
-https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/MinimalAuthApps.css
+@import url("https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/main.css");
 ```
