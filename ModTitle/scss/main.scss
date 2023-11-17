@@ -21,6 +21,9 @@
         :root:has(#vencord-css-core) & {
             content: "Vencord";
         }
+        :root:has(#vcd-css-core) & {
+            content: "Vesktop";
+        }
         :root:has(link[href^="replugged"]) & {
             content: "Replugged";
         }
