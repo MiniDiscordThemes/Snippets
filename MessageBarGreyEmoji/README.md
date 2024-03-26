@@ -3,9 +3,9 @@
 
 Replaces full colour emojis with outline only emojis in the message bar placeholder.
 
-| Before                          | After                                                     |
-| ------------------------------- | --------------------------------------------------------- |
-| ![Default Discord](default.png) | ![Message Bar Grey Emoji applied to Discord](preview.png) |
+| Before                           | After                                                      |
+| -------------------------------- | ---------------------------------------------------------- |
+| ![Default Discord](default.avif) | ![Message Bar Grey Emoji applied to Discord](preview.avif) |
 
 ## Usage
 ### Custom / Quick CSS
