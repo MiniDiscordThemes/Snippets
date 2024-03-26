@@ -11,6 +11,10 @@ Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/PillVC/main.css");
 ```
+### Vencord Themes
+```
+https://minidiscordthemes.github.io/Snippets/PillVC/main.css
+```
 
 ## Customisation
 Paste the following at the end of Custom / Quick CSS, then edit the values:

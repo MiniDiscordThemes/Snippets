@@ -19,3 +19,7 @@ Paste the following at the start:
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ModTitle/main.css");
 ```
+### Vencord Themes
+```
+https://minidiscordthemes.github.io/Snippets/ModTitle/main.css
+```
