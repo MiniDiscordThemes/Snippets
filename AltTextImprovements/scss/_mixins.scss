@@ -1,0 +1,17 @@
+@mixin reaction {
+    background: var(--background-secondary);
+    color: var(--interactive-normal);
+    border: 0.0625rem solid transparent;
+
+    &:hover {
+        background: var(--background-primary);
+        color: var(--interactive-hover);
+        border-color: hsl(var(--white-500-hsl) / 0.2);
+    }
+
+    &:is(:active, :focus) {
+        background: var(--background-secondary-alt);
+        color: var(--interactive-active);
+        border-color: transparent;
+    }
+}

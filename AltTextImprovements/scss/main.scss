@@ -1,0 +1,33 @@
+@use "./mixins";
+
+.mediaMosaicAltText__4ab63 {
+    position: unset;
+    width: 100%;
+    line-height: 10px;
+    border-radius: 0.5rem;
+    margin-top: 2px;
+    @include mixins.reaction;
+}
+
+.mediaMosaicAltTextPopout__30593 {
+    position: relative;
+    top: -10px;
+    user-select: text;
+
+    &::before {
+        content: "";
+        position: absolute;
+        border: 5px solid transparent;
+        border-right-color: var(--background-floating);
+        left: -10px;
+        top: 18px;
+    }
+}
+
+.mediaMosaicAltTextPopoutTitle_c7cc42 {
+    display: none;
+}
+
+.imageContainer__04362 {
+    height: 1%;
+}
