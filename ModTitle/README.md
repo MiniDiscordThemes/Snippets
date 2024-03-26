@@ -7,6 +7,7 @@ Currently supported client mods:
 - BetterDiscord
 - Replugged
 - Vencord
+- Vesktop
 - Shelter
 
 If none of the above are detected, the wordmark will display "Modified Discord".
