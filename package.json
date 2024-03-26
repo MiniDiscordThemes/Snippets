@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "prettier ./ --check",
     "lint:fix": "prettier ./ --write --log-level warn",
-    "avif": "avif --input='**/*.{png,gif,jpg}'"
+    "avif": "avif --input='**/*.{png,jpg}' --quality 100 --effort 9 --verbose"
   },
   "devDependencies": {
     "@sass-fairy/exception": "^1.1.1",
@@ -16,6 +16,6 @@
     "@sass-fairy/math": "^1.0.3",
     "@sass-fairy/meta": "^1.0.2",
     "avif": "^0.4.4",
-    "prettier": "^3.0.3"
+    "prettier": "^3.2.5"
   }
 }
