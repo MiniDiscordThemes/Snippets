@@ -14,10 +14,12 @@
 
 ## Catalogue
 ### Working snippets ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
+- [Alt Text Improvements](AltTextImprovements)
 - [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
 - [Billboard](Billboard)
 - [Efficient Settings](EfficientSettings)
 - [Image Link](ImageLink)
+- [Message Bar Grey Emoji](MessageBarGreyEmoji)
 - [Minimal Auth Apps](MinimalAuthApps)
 - [Mode Indicator](ModeIndicator)
 - [Mod Title](ModTitle)
