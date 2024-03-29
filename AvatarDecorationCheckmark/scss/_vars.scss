@@ -4,24 +4,24 @@ $checkmark: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 // Wrapper and username selectors for each avatar decoration location
 $locations: (
     "profile": (
-        "wrapper": ".profileColors__2e2f0",
-        "username": ":is(.nickname__3d1d7, .container-3g15px .text-lg-semibold__84aef)"
+        "wrapper": ".profileColors_ac6ab4",
+        "username": ":is(.nickname_db3773, .container-3g15px .text-lg-semibold__84aef)"
     ),
     "message": (
-        "wrapper": ".contents_f41bb2",
-        "username": ".username_d30d99:not(.vc-rdb-view .username_d30d99)"
+        "wrapper": ".contents_d3ae0d",
+        "username": ".username__0b0e7:not(.vc-rdb-view .username__0b0e7)"
     ),
     "dm-header": (
-        "wrapper": ".container_b03b4b",
-        "username": ".header__4080b"
+        "wrapper": ".container_cd7d9c",
+        "username": ".header_abc647"
     ),
     "member-list": (
         "wrapper": ".member_aa4760",
         "username": ".username_d272d6"
     ),
     "dm-list": (
-        "wrapper": ".channel_c21703",
-        "username": ".overflow__87fe8"
+        "wrapper": ".channel__0aef5",
+        "username": ".overflow__993fa"
     )
 );
 

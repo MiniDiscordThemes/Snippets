@@ -1,33 +1,33 @@
-.barBase__4e0ba {
+.barBase__8839d {
     --bar-height: 32px;
     --bar-edges: 16px;
 
-    .messagesWrapper_ea2b0b:has(.newMessagesBar__8b6d7):has(.jumpToPresentBar__0ff7f) & {
+    .messagesWrapper_add28b:has(.newMessagesBar__8b272):has(.jumpToPresentBar__69174) & {
         justify-content: center;
         height: var(--bar-height);
         overflow: hidden;
         width: calc(50% - var(--bar-edges));
 
-        .barButtonBase__8fa46 {
+        .barButtonBase__5e4cf {
             text-align: center;
         }
 
-        &:hover .barButtonMain__0f5c6 {
+        &:hover .barButtonMain__984b4 {
             display: none;
         }
 
-        &:not(:hover) .barButtonAlt__4b48f {
+        &:not(:hover) .barButtonAlt_e800ef {
             display: none;
         }
     }
 }
 
-.newMessagesBar__8b6d7 {
+.newMessagesBar__8b272 {
     border-radius: 8px 8px 0 0;
     inset: auto var(--bar-edges) 0;
     padding-bottom: 8px;
 
-    .messagesWrapper_ea2b0b:has(.jumpToPresentBar__0ff7f) & {
+    .messagesWrapper_add28b:has(.jumpToPresentBar__69174) & {
         left: auto;
     }
 }

@@ -1,4 +1,4 @@
-:is(.container-3g15px, .usernameSection__53868) {
+:is(.container-3g15px, .usernameSection_dd6196) {
     @extend %usernameSection !optional;
 }
 
@@ -6,7 +6,7 @@
     @extend %akaSection !optional;
 }
 
-:is(.userTagNoNickname__6b0db, .nickname__3d1d7, .nameTag__693ff):first-child {
+:is(.userTagNoNickname__304eb, .nickname_db3773, .nameTag__1d385):first-child {
     @extend %username !optional;
 }
 
@@ -14,23 +14,23 @@
     @extend %akaNames !optional;
 }
 
-.userProfileModalOuter__3fe6b {
+.userProfileModalOuter_a65559 {
     @extend %modalProfile !optional;
 }
 
-:is(.profileBadges__7a7cb, .badgeList_c193e3) {
+:is(.profileBadges__1f2ab, .badgeList__126b0) {
     @extend %badgesSection !optional;
 }
 
-.username__2cac3 {
+.username__7d629 {
     @extend %nameBeforeDiscrim !optional;
 }
 
-.userPopoutOuter_d739b2 {
+.userPopoutOuter__3884e {
     @extend %popoutProfile !optional;
 }
 
-.overlayBackground__86b78 {
+.overlayBackground__2666e {
     @extend %profileBody !optional;
 }
 
