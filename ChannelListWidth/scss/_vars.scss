@@ -1,0 +1,7 @@
+$default-banner-height: 135;
+$default-banner-width: 240;
+
+$channellist-width: var(--channellist-width);
+$channellist-header-height: var(--channellist-header-height);
+
+$banner-height: calc($channellist-width / $default-banner-width * $default-banner-height);
