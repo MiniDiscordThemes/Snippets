@@ -1,1 +1,0 @@
-These are not themes, just reference material for making themes.

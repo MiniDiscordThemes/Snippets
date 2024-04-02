@@ -12,7 +12,8 @@
     "lint": "prettier ./ --check",
     "lint:fix": "prettier ./ --write --log-level warn",
     "build:css": "node ./lib/build.js",
-    "build:rp": "replugged bundle theme"
+    "build:rp": "replugged bundle theme",
+    "release": "replugged release"
   },
   "devDependencies": {
     "@sass-fairy/exception": "^1.1.1",
