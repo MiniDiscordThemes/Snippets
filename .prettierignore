@@ -1,6 +1,8 @@
 # Folders
 /.github
 /node_modules
+/themesdist
+/lib
 
 # File types
 *.md

@@ -1,15 +1,14 @@
 # Folders
 /node_modules
 
-# File types
-*.png
-*.gif
-*.kra
-
-# Build
+# Generated
 # self:build / self:dev
-/js
+/lib
 # build:css
-/css
+/themesdist
 # build:rp
 /bundle
+
+# Test
+/**/_test
+_test.*

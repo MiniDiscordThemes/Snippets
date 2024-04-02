@@ -5,13 +5,14 @@
   "author": "Saltssaumure <themes@saltssaumure.net>",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
     "self:build": "npx tsc",
     "self:dev": "npx tsc -w",
     "lint": "prettier ./ --check",
     "lint:fix": "prettier ./ --write --log-level warn",
     "avif": "avif --input='**/*.{png,jpg}' --quality 100 --effort 9 --verbose",
-    "build:css": "node ./js/build.js",
+    "build:css": "node ./lib/build.js",
     "build:rp": "replugged bundle theme"
   },
   "devDependencies": {
@@ -19,8 +20,14 @@
     "@sass-fairy/list": "^1.2.4",
     "@sass-fairy/math": "^1.0.3",
     "@sass-fairy/meta": "^1.0.2",
-    "avif": "^0.4.4",
+    "@types/node": "^20.12.2",
+    "chalk": "^5.3.0",
+    "glob": "^10.3.12",
+    "gm": "^1.25.0",
     "prettier": "^3.2.5",
-    "replugged": "^4.7.9"
+    "replugged": "^4.7.9",
+    "sass": "^1.72.0",
+    "sharp": "^0.33.3",
+    "typescript": "^5.4.3"
   }
 }
