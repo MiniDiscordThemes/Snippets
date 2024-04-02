@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Build JS
+        run: pnpm run self:build
+
       - name: Build CSS
         run: pnpm run build:css
 
