@@ -1,0 +1,39 @@
+name: "Build and deploy CSS"
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    name: Build CSS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout snippets
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 21
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build CSS
+        run: pnpm run build:css
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: deploy
+          publish_dir: "./css"

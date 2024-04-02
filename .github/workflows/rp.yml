@@ -1,0 +1,40 @@
+name: Release for Replugged
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout theme
+        uses: actions/checkout@v4
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build and bundle all snippets
+        run: pnpm run build:rp --all
+
+      - name: Release bundled asars and jsons
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "bundle/*"
+          makeLatest: true
+          generateReleaseNotes: true

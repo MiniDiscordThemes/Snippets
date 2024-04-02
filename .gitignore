@@ -5,3 +5,11 @@
 *.png
 *.gif
 *.kra
+
+# Build
+# self:build / self:dev
+/js
+# build:css
+/css
+# build:rp
+/bundle

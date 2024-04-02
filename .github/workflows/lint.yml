@@ -12,20 +12,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Git repository
+      - name: Checkout snippets
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
-            node-version: 18
+            node-version: 21
 
-      - name: Install PNPM
-        uses: pnpm/action-setup@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
         with:
             version: latest
 
-      - name: Install Node.js dependencies
+      - name: Install dependencies
         run: pnpm install
 
       - name: Run linters

@@ -6,9 +6,13 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "self:build": "npx tsc",
+    "self:dev": "npx tsc -w",
     "lint": "prettier ./ --check",
     "lint:fix": "prettier ./ --write --log-level warn",
-    "avif": "avif --input='**/*.{png,jpg}' --quality 100 --effort 9 --verbose"
+    "avif": "avif --input='**/*.{png,jpg}' --quality 100 --effort 9 --verbose",
+    "build:css": "node ./js/build.js",
+    "build:rp": "replugged bundle theme"
   },
   "devDependencies": {
     "@sass-fairy/exception": "^1.1.1",
@@ -16,6 +20,7 @@
     "@sass-fairy/math": "^1.0.3",
     "@sass-fairy/meta": "^1.0.2",
     "avif": "^0.4.4",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "replugged": "^4.7.9"
   }
 }
