@@ -1,10 +1,105 @@
 import * as sass from "sass";
-import fs from "fs";
+import fs, { copyFileSync } from "fs";
 import path from "path";
 import sharp from "sharp";
 import { globSync } from "glob";
 
 import log from "./log.js";
+
+const getBaseWithExt = (file: string, ext: string) => path.basename(file, path.extname(file)) + ext;
+
+const compileAndSaveCss = (dirSource: string, dirTarget: string) => {
+    const base = "main";
+    const fileSource = path.join(dirSource, base + ".scss");
+    const fileTarget = path.join(dirTarget, base + ".css");
+
+    try {
+        if (!fs.existsSync(fileSource)) {
+            throw new Error(`Can't find ${fileSource}`);
+        }
+
+        // Compile css
+        const css = sass.compile(fileSource, {
+            style: "compressed",
+            charset: false,
+            loadPaths: ["node_modules"]
+        }).css;
+
+        // Save css
+        if (!fs.existsSync(dirTarget)) fs.mkdirSync(dirTarget, { recursive: true });
+        fs.writeFileSync(fileTarget, css);
+
+        log.created(`${base + ".css"}`);
+    } catch (error) {
+        log.error(`${base + ".css"}`, error);
+    }
+};
+
+const convertAndSaveAvif = (fileSource: string, fileTarget: string) => {
+    const baseWithExt = getBaseWithExt(fileTarget, ".avif");
+
+    try {
+        if (fs.existsSync(fileTarget)) {
+            log.exists(`${baseWithExt}`);
+        } else {
+            const avif = sharp(fileSource).avif({
+                quality: 100,
+                effort: 9
+            });
+            avif.toFile(fileTarget);
+            log.created(`${baseWithExt}`);
+        }
+    } catch (error) {
+        log.error(`${baseWithExt}`, error);
+    }
+};
+
+const convertAndSavePreviews = (dirSource: string, dirTarget: string) => {
+    // Find paths of jpg,png images
+    let filesSource = globSync(`${dirSource}/*.{png,jpeg}`, { windowsPathsNoEscape: true });
+    // Convert and save each image
+    filesSource.forEach((fileSource) => {
+        const fileTarget = fileSource.replace(dirSource, dirTarget).replace(path.extname(fileSource), ".avif");
+        convertAndSaveAvif(fileSource, fileTarget);
+    });
+
+    // Copy avif images if jpg,png images are not found
+    if (!filesSource.length) {
+        filesSource = globSync(`${dirSource}/*.avif`, { windowsPathsNoEscape: true });
+        filesSource.forEach((fileSource) => {
+            const fileTarget = fileSource.replace(dirSource, dirTarget).replace(path.extname(fileSource), ".avif");
+            fs.copyFileSync(fileSource, fileTarget);
+            log.copied(getBaseWithExt(fileTarget, ".avif"));
+        });
+    }
+};
+
+const copyFiles = (dirSource: string, dirTarget: string) => {
+    if (fs.existsSync(dirSource)) {
+        // List of files and directories
+        const contents = fs.readdirSync(dirSource, { recursive: true, withFileTypes: true }).filter((dirent) => dirent.isFile());
+        contents.forEach((content) => {
+            try {
+                const ext = path.extname(content.name);
+                const contentFileSource = path.join(content.path, content.name);
+                const contentFileTarget = contentFileSource.replace(dirSource, dirTarget);
+
+                fs.mkdirSync(path.dirname(contentFileTarget), { recursive: true });
+
+                // Convert png,jpg to avif
+                // Copy non-convertible files
+                if (ext === ".png" || ext === ".jpg") {
+                    convertAndSaveAvif(contentFileSource, contentFileTarget.replace(ext, ".avif"));
+                } else {
+                    fs.copyFileSync(contentFileSource, contentFileTarget);
+                    log.copied(content.name);
+                }
+            } catch (error) {
+                log.error("Unable to copy assets", error);
+            }
+        });
+    }
+};
 
 // Get snippet names
 const snippetNames = ((dir) =>
@@ -13,70 +108,23 @@ const snippetNames = ((dir) =>
         .filter((dirent) => dirent.isDirectory())
         .map((dirent) => dirent.name))("themes");
 
-// Compile and save css to `themesdist/snippetName`
-const compileAndSaveCss = (snippetName: any) => {
-    const dirScss = path.join("themes", snippetName, "scss");
-    const dirCss = path.join("themesdist", snippetName);
+// Process each snippet
+const processSnippet = (snippetName: any) => {
+    const dirSource = path.join("themes", snippetName);
+    const dirTarget = path.join("themesdist", snippetName);
 
-    const base = "main";
-    const fileScss = path.join(dirScss, base + ".scss");
-    const fileCss = path.join(dirCss, base + ".css");
+    log.snippet(snippetName);
 
-    try {
-        if (!fs.existsSync(fileScss)) {
-            throw new Error(`Can't find ${fileScss}`);
-        }
+    // Compile and save css to `themesdist/snippetName`
+    compileAndSaveCss(path.join(dirSource, "scss"), dirTarget);
 
-        // Compile css
-        const css = sass.compile(fileScss, {
-            style: "compressed",
-            charset: false,
-            loadPaths: ["node_modules"]
-        }).css;
+    // Convert preview images from jpg,png to avif in `themesdist/snippetName`
+    convertAndSavePreviews(path.join(dirSource, "preview"), dirTarget);
 
-        // Save css
-        if (!fs.existsSync(dirCss)) fs.mkdirSync(dirCss, { recursive: true });
-        fs.writeFileSync(fileCss, css);
-
-        log.created(`${base + ".css"}`);
-    } catch (error) {
-        log.error(`${base + ".css"}`, error);
-    }
-};
-
-// Convert preview images from jpg,png,gif to avif in `lib/snippetName`
-const convertAndSaveAvif = (snippetName: any) => {
-    const dirOriginal = path.join("themes", snippetName, "preview");
-    const dirAvif = path.join("themesdist", snippetName);
-
-    const filesOriginal = globSync(`${dirOriginal}/*.{png,jpeg}`, { windowsPathsNoEscape: true });
-    if (!filesOriginal.length) {
-        log.warning("No preview images found.");
-    }
-
-    filesOriginal.forEach((fileOriginal) => {
-        const base = path.basename(fileOriginal, path.extname(fileOriginal));
-        const fileAvif = path.join(dirAvif, base + ".avif");
-
-        try {
-            if (fs.existsSync(fileAvif)) {
-                log.exists(`${base + ".avif"}`);
-            } else {
-                const avif = sharp(fileOriginal).avif({
-                    quality: 100,
-                    effort: 9
-                });
-                avif.toFile(fileAvif);
-                log.created(`${base + ".avif"}`);
-            }
-        } catch (error) {
-            log.error(`${base + ".avif"}`, error);
-        }
-    });
+    // Copy asset files from `themes/snippetName` to `themesdist/snippetName`
+    copyFiles(path.join(dirSource, "asset"), path.join(dirTarget, "asset"));
 };
 
 snippetNames.forEach((snippetName) => {
-    log.snippet(snippetName);
-    compileAndSaveCss(snippetName);
-    convertAndSaveAvif(snippetName);
+    processSnippet(snippetName);
 });
