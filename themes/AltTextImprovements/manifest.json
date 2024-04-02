@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.AltTextImprovements",
+  "name": "Alt Text Improvements",
+  "description": "Selectable and unobtrusive image descriptions.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.AltTextImprovements"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/AltTextImprovements",
+  "image": ["https://minidiscordthemes.github.io/Snippets/AltTextImprovements/preview/preview.avif"]
+}

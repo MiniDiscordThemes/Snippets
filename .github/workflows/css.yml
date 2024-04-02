@@ -2,9 +2,8 @@ name: "Build and deploy CSS"
 
 on:
   push:
-    branches:
-      - main
-      - master
+    tags:
+      - z*
 
 jobs:
   build:
