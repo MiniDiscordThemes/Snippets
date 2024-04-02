@@ -38,12 +38,11 @@
 - [Hide AKA](_dead/HideAKA)
 
 ## Usage
-Some snippets have additional customisation options. See the snippet's README for more information.
-
 To use a snippet, add the following to the top of your Quick / Custom CSS file:
 ```css
 @import url('https://minidiscordthemes.github.io/Snippets/<snippet-name>/main.css');
 ```
+Some snippets have additional customisation options. See the snippet's README for more information.
 
 ### [BetterDiscord][BetterDiscord]
 1. Open `Settings` > `BetterDiscord` > `Custom CSS`.
@@ -54,6 +53,9 @@ To use a snippet, add the following to the top of your Quick / Custom CSS file:
 ### [Vencord][Vencord]
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord`.
 2. Click `Open QuickCSS File`.
+
+## Contributing
+See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## License
 [MIT License](LICENSE)
