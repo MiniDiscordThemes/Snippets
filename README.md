@@ -17,6 +17,7 @@
 - [Alt Text Improvements](AltTextImprovements)
 - [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
 - [Billboard](Billboard)
+- [Channel List Width](ChannelListWidth)
 - [Efficient Settings](EfficientSettings)
 - [Image Link](ImageLink)
 - [Message Bar Grey Emoji](MessageBarGreyEmoji)
