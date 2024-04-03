@@ -23,7 +23,9 @@
 [ModeIndicatorPreview]: https://minidiscordthemes.github.io/Snippets/ModeIndicator/preview.avif
 [ModTitlePreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/preview.avif
 [PillVCPreview]: https://minidiscordthemes.github.io/Snippets/PillVC/preview.avif
-[RoleTintPreview]: https://minidiscordthemes.github.io/Snippets/RoleTint/preview.avif
+[RoleTintPreview1]: https://minidiscordthemes.github.io/Snippets/RoleTint/previewDark.avif
+[RoleTintPreview2]: https://minidiscordthemes.github.io/Snippets/RoleTint/previewLight.avif
+[RoleTintPreview3]: https://minidiscordthemes.github.io/Snippets/RoleTint/previewDarkest.avif
 [SettingsAsOverlayPreview]: https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/preview.avif
 [ShowOriginalLinkPreview]: https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/preview.avif
 [SplitMessageBarsPreview]: https://minidiscordthemes.github.io/Snippets/SplitMessageBars/preview.avif
@@ -50,7 +52,7 @@
 |             [Mode Indicator](themes/ModeIndicator)              |                                                                            ![preview][ModeIndicatorPreview]                                                                             |
 |                  [Mod Title](themes/ModTitle)                   |                                                                               ![preview][ModTitlePreview]                                                                               |
 |                    [Pill VC](themes/PillVC)                     |                                                                                ![preview][PillVCPreview]                                                                                |
-|                  [Role Tint](themes/RoleTint)                   |                                                                               ![preview][RoleTintPreview]                                                                               |
+|                  [Role Tint](themes/RoleTint)                   |                                                 ![preview][RoleTintPreview1] ![preview][RoleTintPreview2] ![preview][RoleTintPreview3]                                                  |
 |         [Settings As Overlay](themes/SettingsAsOverlay)         |                                                                          ![preview][SettingsAsOverlayPreview]                                                                           |
 |          [Show Original Link](themes/ShowOriginalLink)          |                                                                           ![preview][ShowOriginalLinkPreview]                                                                           |
 |          [Split Message Bars](themes/SplitMessageBars)          |                                                                           ![preview][SplitMessageBarsPreview]                                                                           |
