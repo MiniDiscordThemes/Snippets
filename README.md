@@ -21,7 +21,10 @@
 [MessageBarGreyEmojiPreview]: https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/preview.avif
 [MinimalAuthAppsPreview]: https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/preview.avif
 [ModeIndicatorPreview]: https://minidiscordthemes.github.io/Snippets/ModeIndicator/preview.avif
-[ModTitlePreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/preview.avif
+[ModTitlePreview1]: https://minidiscordthemes.github.io/Snippets/ModTitle/BetterDiscord.avif
+[ModTitlePreview2]: https://minidiscordthemes.github.io/Snippets/ModTitle/Replugged.avif
+[ModTitlePreview3]: https://minidiscordthemes.github.io/Snippets/ModTitle/Vencord.avif
+[ModTitlePreview4]: https://minidiscordthemes.github.io/Snippets/ModTitle/Vesktop.avif
 [PillVCPreview]: https://minidiscordthemes.github.io/Snippets/PillVC/preview.avif
 [RoleTintPreview1]: https://minidiscordthemes.github.io/Snippets/RoleTint/previewDark.avif
 [RoleTintPreview2]: https://minidiscordthemes.github.io/Snippets/RoleTint/previewLight.avif
@@ -50,7 +53,7 @@
 |      [Message Bar Grey Emoji](themes/MessageBarGreyEmoji)       |                                                                         ![preview][MessageBarGreyEmojiPreview]                                                                          |
 |           [Minimal Auth Apps](themes/MinimalAuthApps)           |                                                                           ![preview][MinimalAuthAppsPreview]                                                                            |
 |             [Mode Indicator](themes/ModeIndicator)              |                                                                            ![preview][ModeIndicatorPreview]                                                                             |
-|                  [Mod Title](themes/ModTitle)                   |                                                                               ![preview][ModTitlePreview]                                                                               |
+|                  [Mod Title](themes/ModTitle)                   |                                   ![preview][ModTitlePreview1] ![preview][ModTitlePreview2] ![preview][ModTitlePreview3] ![preview][ModTitlePreview4]                                   |
 |                    [Pill VC](themes/PillVC)                     |                                                                                ![preview][PillVCPreview]                                                                                |
 |                  [Role Tint](themes/RoleTint)                   |                                                 ![preview][RoleTintPreview1] ![preview][RoleTintPreview2] ![preview][RoleTintPreview3]                                                  |
 |         [Settings As Overlay](themes/SettingsAsOverlay)         |                                                                          ![preview][SettingsAsOverlayPreview]                                                                           |
