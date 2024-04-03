@@ -11,8 +11,8 @@
   ],
   "version": "1.0.0",
   "updater": {
-    "type": "github",
-    "id": "MiniDiscordThemes/Snippets"
+    "type": "store",
+    "id": "net.saltssaumure.AvatarDecorationCheckmark"
   },
   "license": "MIT",
   "type": "replugged-theme",
