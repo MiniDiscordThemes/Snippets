@@ -1,18 +1,21 @@
+[BetterDiscordPreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/BetterDiscord.avif
+[RepluggedPreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/Replugged.avif
+[VencordPreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/Vencord.avif
+[VesktopPreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/Vesktop.avif
+
 # Client Mod Title
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Changes the wordmark in the titlebar to the current client mod.
 
-Currently supported client mods:
-- BetterDiscord
-- Replugged
-- Vencord
-- Vesktop
-- Shelter
-
-If none of the above are detected, the wordmark will display "Modified Discord".
-
-![ModTitle applied to Vencord](preview.avif) 
+| Client mod    | Preview                          |
+| ------------- | -------------------------------- |
+| BetterDiscord | ![preview][BetterDiscordPreview] |
+| Replugged     | ![preview][RepluggedPreview]     |
+| Vencord       | ![preview][VencordPreview]       |
+| Vesktop       | ![preview][VesktopPreview]       |
+| Shelter       | *Shelter*                        |
+| Other         | *Modified Discord*               |
 
 ## Usage
 ### Custom / Quick CSS
