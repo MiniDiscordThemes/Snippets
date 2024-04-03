@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.MinimalAuthApps",
+  "name": "Minimal Authorised Apps",
+  "description": "A minimised look for authorised app cards. Slides open on hover to reveal full info.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.MinimalAuthApps"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/MinimalAuthApps",
+  "image": ["https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/preview.avif"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.ModTitle",
+  "name": "Mod Title",
+  "description": "Changes the wordmark in the titlebar to read 'Replugged'.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "MiniDiscordThemes/Snippets"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/ModTitle",
+  "image": ["https://minidiscordthemes.github.io/Snippets/ModTitle/preview.avif"]
+}

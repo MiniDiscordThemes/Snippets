@@ -8,6 +8,7 @@
 /themesdist
 # build:rp
 /bundle
+/dist
 
 # Test
 /**/_test

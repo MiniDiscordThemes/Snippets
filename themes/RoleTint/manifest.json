@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.RoleTint",
+  "name": "Role Tint",
+  "description": "User role colour displayed as a tint overlay rather than a dot.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.RoleTint"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/RoleTint",
+  "image": ["https://minidiscordthemes.github.io/Snippets/RoleTint/preview.avif"]
+}

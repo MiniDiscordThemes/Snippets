@@ -1,0 +1,27 @@
+{
+  "id": "net.saltssaumure.AvatarDecorationCheckmark",
+  "name": "Avatar Decoration Checkmark",
+  "description": "Adds the Twitter Verified checkmark after the username of anyone using a paid avatar decoration. See GitHub for customisation options.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "github",
+    "id": "MiniDiscordThemes/Snippets"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/AvatarDecorationCheckmark",
+  "image": [
+    "https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/dm.avif",
+    "https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/memberlist.avif",
+    "https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/message.avif",
+    "https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/profile.avif"
+  ]
+}

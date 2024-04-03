@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.ImageLink",
+  "name": "Image Link",
+  "description": "Transforms the image modal into a clickable link to its source. Note that this disables right-click options.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.ImageLink"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/ImageLink",
+  "image": ["https://minidiscordthemes.github.io/Snippets/ImageLink/preview.avif"]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.EfficientSettings",
+  "name": "Efficient Settings",
+  "description": "Shortens the right-click settings menu by hiding all options that only open the full settings menu.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.EfficientSettings"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/EfficientSettings",
+  "image": ["https://minidiscordthemes.github.io/Snippets/EfficientSettings/preview.avif"]
+}

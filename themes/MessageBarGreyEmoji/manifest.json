@@ -1,0 +1,25 @@
+{
+  "id": "net.saltssaumure.MessageBarGreyEmoji",
+  "name": "Message Bar Grey Emoji",
+  "description": "Replaces full-colour emojis with outline-only emojis in the message bar placeholder.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.MessageBarGreyEmoji"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/MessageBarGreyEmoji",
+  "image": [
+    "https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/default.avif",
+    "https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/preview.avif"
+  ]
+}

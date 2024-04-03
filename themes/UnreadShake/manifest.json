@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.UnreadShake",
+  "name": "Unread Shake",
+  "description": "Servers and channels with unread messages will shake.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.UnreadShake"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/UnreadShake",
+  "image": ["https://minidiscordthemes.github.io/Snippets/UnreadShake/preview.avif"]
+}

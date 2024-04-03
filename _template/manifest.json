@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.SnippetName",
+  "name": "Snippet Name",
+  "description": "A short description of the snippet. See GitHub for customisation options.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.SnippetName"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/SnippetName",
+  "image": ["https://minidiscordthemes.github.io/Snippets/SnippetName/preview.avif"]
+}
