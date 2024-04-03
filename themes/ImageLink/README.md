@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/ImageLink/preview.avif
+
 # Image Link
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Transforms the image modal into a clickable link to its source. Note that this disables right-click options.
 
-![Image Link applied to Discord](preview.avif)
+![Image Link applied to Discord][preview]
 
 ## Usage
 ### `@import`

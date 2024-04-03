@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/PillVC/preview.avif
+
 # Pill VC
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Styles the voice chat user counter as an [estradiol](https://www.drugs.com/estradiol.html) pill.
 
-![Pill VC in dark mode](preview.avif)
+![Pill VC in dark mode][preview]
 
 ## Usage
 ### `@import`

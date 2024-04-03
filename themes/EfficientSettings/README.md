@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/EfficientSettings/preview.avif
+
 # Efficient Settings
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Shortens the right-click settings menu by hiding all options that only open the full settings menu.
 
-![Efficient Settings in dark mode](preview.avif)
+![Efficient Settings in dark mode][preview]
 
 ## Usage
 ### `@import`

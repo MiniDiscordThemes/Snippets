@@ -1,3 +1,6 @@
+[previewWide]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-wide.avif
+[previewNarrow]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-narrow.avif
+
 # Channel List Width
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
@@ -6,9 +9,9 @@ Improved custom channel list width and header height, with fixes for server bann
 - Banners stretch/shrink correctly to fit any channel list width and header height.
 - User panel buttons reposition above user info when channel list is narrow, and spread out when channel list is wide.
 
-| 600px                                    | 240px                                      |
-| ---------------------------------------- | ------------------------------------------ |
-| ![600px channel list](preview-wide.avif) | ![240px channel list](preview-narrow.avif) |
+| 600px                              | 240px                                |
+| ---------------------------------- | ------------------------------------ |
+| ![600px channel list][previewWide] | ![240px channel list][previewNarrow] |
 
 ## Usage
 ### `@import`

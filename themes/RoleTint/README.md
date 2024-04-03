@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/RoleTint/preview.avif
+
 # Role Tint
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 User role colour displayed as a tint overlay rather than a dot.
 
-![Role Tint in dark mode with custom profile colours](preview.avif)
+![Role Tint in dark mode with custom profile colours][preview]
 
 ## Usage
 ### `@import`

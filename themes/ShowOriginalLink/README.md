@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/preview.avif
+
 # Show Original Link
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Shows the original URL of Markdown-masked links.
 
-![Show Original Link in dark mode](preview.avif)
+![Show Original Link in dark mode][preview]
 
 ## Usage
 ### `@import`

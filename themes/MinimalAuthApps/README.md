@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/preview.avif
+
 # Minimal Authorised Apps
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 A minimised look for authorised app cards. Slides open on hover to reveal full info.
 
-![Minimal Authorised Apps applied to Authorised Apps panel in settings](preview.avif)
+![Minimal Authorised Apps applied to Authorised Apps panel in settings][preview]
 
 ## Usage
 ### `@import`

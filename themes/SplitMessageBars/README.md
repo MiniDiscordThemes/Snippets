@@ -1,9 +1,11 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/SplitMessageBars/preview.avif
+
 # Split Message Bars
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
 Positions both the *new messages* and *viewing old messages* bars on top of the channel text area.
 
-![Split Message Bars in dark mode](preview.avif)
+![Split Message Bars in dark mode][preview]
 
 ## Usage
 ### `@import`
