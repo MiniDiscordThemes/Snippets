@@ -7,6 +7,27 @@
 [Replugged]:        https://replugged.dev/
 [Vencord]:          https://github.com/Vendicated/Vencord
 
+[AltTextImprovementsPreview]: https://minidiscordthemes.github.io/Snippets/AltTextImprovements/preview.avif
+[AvatarDecorationCheckmarkPreview1]: https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/dm.avif
+[AvatarDecorationCheckmarkPreview2]: https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/memberlist.avif
+[AvatarDecorationCheckmarkPreview3]: https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/message.avif
+[AvatarDecorationCheckmarkPreview4]: https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/profile.avif
+[BillboardPreview]: https://minidiscordthemes.github.io/Snippets/Billboard/preview.avif
+[ChannelListWidthPreview1]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-wide.avif
+[ChannelListWidthPreview2]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-narrow.avif
+[EfficientSettingsPreview]: https://minidiscordthemes.github.io/Snippets/EfficientSettings/preview.avif
+[ImageLinkPreview]: https://minidiscordthemes.github.io/Snippets/ImageLink/preview.avif
+[MessageBarGreyEmojiPreview]: https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/preview.avif
+[MinimalAuthAppsPreview]: https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/preview.avif
+[ModeIndicatorPreview]: https://minidiscordthemes.github.io/Snippets/ModeIndicator/preview.avif
+[ModTitlePreview]: https://minidiscordthemes.github.io/Snippets/ModTitle/preview.avif
+[PillVCPreview]: https://minidiscordthemes.github.io/Snippets/PillVC/preview.avif
+[RoleTintPreview]: https://minidiscordthemes.github.io/Snippets/RoleTint/preview.avif
+[SettingsAsOverlayPreview]: https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/preview.avif
+[ShowOriginalLinkPreview]: https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/preview.avif
+[SplitMessageBarsPreview]: https://minidiscordthemes.github.io/Snippets/SplitMessageBars/preview.avif
+[UnreadShakePreview]: https://minidiscordthemes.github.io/Snippets/UnreadShake/preview.avif
+
 # Snippets
 [![Total repository size][shield-repo-size]][github]
 
@@ -14,22 +35,24 @@
 
 ## Catalogue
 ### Working snippets ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
-- [Alt Text Improvements](AltTextImprovements)
-- [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
-- [Billboard](Billboard)
-- [Channel List Width](ChannelListWidth)
-- [Efficient Settings](EfficientSettings)
-- [Image Link](ImageLink)
-- [Message Bar Grey Emoji](MessageBarGreyEmoji)
-- [Minimal Auth Apps](MinimalAuthApps)
-- [Mode Indicator](ModeIndicator)
-- [Mod Title](ModTitle)
-- [Pill VC](PillVC)
-- [Role Tint](RoleTint)
-- [Settings As Overlay](SettingsAsOverlay)
-- [Show Original Link](ShowOriginalLink)
-- [Split Message Bars](SplitMessageBars)
-- [Unread Shake](UnreadShake)
+| Snippet                                                  | Preview                                                                                                                                                                                 |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Alt Text Improvements](AltTextImprovements)             | ![preview][AltTextImprovementsPreview]                                                                                                                                                  |
+| [Avatar Decoration Checkmark](AvatarDecorationCheckmark) | ![preview][AvatarDecorationCheckmarkPreview1] ![preview][AvatarDecorationCheckmarkPreview2] ![preview][AvatarDecorationCheckmarkPreview3] ![preview][AvatarDecorationCheckmarkPreview4] |
+| [Billboard](Billboard)                                   | ![preview][BillboardPreview]                                                                                                                                                            |
+| [Channel List Width](ChannelListWidth)                   | ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2]                                                                                                               |
+| [Efficient Settings](EfficientSettings)                  | ![preview][EfficientSettingsPreview]                                                                                                                                                    |
+| [Image Link](ImageLink)                                  | ![preview][ImageLinkPreview]                                                                                                                                                            |
+| [Message Bar Grey Emoji](MessageBarGreyEmoji)            | ![preview][MessageBarGreyEmojiPreview]                                                                                                                                                  |
+| [Minimal Auth Apps](MinimalAuthApps)                     | ![preview][MinimalAuthAppsPreview]                                                                                                                                                      |
+| [Mode Indicator](ModeIndicator)                          | ![preview][ModeIndicatorPreview]                                                                                                                                                        |
+| [Mod Title](ModTitle)                                    | ![preview][ModTitlePreview]                                                                                                                                                             |
+| [Pill VC](PillVC)                                        | ![preview][PillVCPreview]                                                                                                                                                               |
+| [Role Tint](RoleTint)                                    | ![preview][RoleTintPreview]                                                                                                                                                             |
+| [Settings As Overlay](SettingsAsOverlay)                 | ![preview][SettingsAsOverlayPreview]                                                                                                                                                    |
+| [Show Original Link](ShowOriginalLink)                   | ![preview][ShowOriginalLinkPreview]                                                                                                                                                     |
+| [Split Message Bars](SplitMessageBars)                   | ![preview][SplitMessageBarsPreview]                                                                                                                                                     |
+| [Unread Shake](UnreadShake)                              | ![preview][UnreadShakePreview]                                                                                                                                                          |
 
 ### Moved snippets ![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
 - [Minimal Addon Cards](_dead/MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
