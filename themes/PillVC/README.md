@@ -6,12 +6,15 @@ Styles the voice chat user counter as an [estradiol](https://www.drugs.com/estra
 ![Pill VC in dark mode](preview.avif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/PillVC/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.PillVC)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.PillVC.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/PillVC/main.css
 ```

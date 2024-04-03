@@ -6,12 +6,15 @@ Servers and channels with unread messages will shake.
 ![Unread Shake on a server and channel](preview.gif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/UnreadShake/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.UnreadShake)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.UnreadShake.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/UnreadShake/main.css
 ```

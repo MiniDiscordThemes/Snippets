@@ -6,12 +6,15 @@ Adds a light / dark mode indicator on the title bar. Especially useful for theme
 ![Mode Indicator in light and dark mode](preview.avif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ModeIndicator/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.ModeIndicator)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.ModeIndicator.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/ModeIndicator/main.css
 ```

@@ -6,12 +6,15 @@ Shortens the right-click settings menu by hiding all options that only open the 
 ![Efficient Settings in dark mode](preview.avif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/EfficientSettings/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.EfficientSettings)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.EfficientSettings.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/EfficientSettings/main.css
 ```

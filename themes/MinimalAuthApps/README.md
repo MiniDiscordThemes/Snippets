@@ -6,12 +6,15 @@ A minimised look for authorised app cards. Slides open on hover to reveal full i
 ![Minimal Authorised Apps applied to Authorised Apps panel in settings](preview.avif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.MinimalAuthApps)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.MinimalAuthApps.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/main.css
 ```

@@ -18,12 +18,15 @@ Changes the wordmark in the titlebar to the current client mod.
 | Other         | *Modified Discord*               |
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ModTitle/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.ModTitle)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.ModTitle.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/ModTitle/main.css
 ```

@@ -6,12 +6,15 @@ Shows the original URL of Markdown-masked links.
 ![Show Original Link in dark mode](preview.avif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.ShowOriginalLink)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.ShowOriginalLink.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/ShowOriginalLink/main.css
 ```

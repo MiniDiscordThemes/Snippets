@@ -6,12 +6,15 @@ User role colour displayed as a tint overlay rather than a dot.
 ![Role Tint in dark mode with custom profile colours](preview.avif)
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/RoleTint/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.RoleTint)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.RoleTint.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/RoleTint/main.css
 ```

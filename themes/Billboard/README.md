@@ -1,17 +1,22 @@
+[preview]: https://minidiscordthemes.github.io/Snippets/Billboard/preview.avif
+
 # Billboard
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
-Turns the entirety of Discord into a billboard. Warning: this is just for fun, and is not meant to be used seriously.
+Turns the entirety of Discord into a billboard.
 
-![Billboard applied to Discord](preview.avif)
+![Billboard applied to Discord][preview]
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/Billboard/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.Billboard)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.Billboard.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/Billboard/main.css
 ```

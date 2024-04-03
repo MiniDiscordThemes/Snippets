@@ -6,6 +6,7 @@
 [BetterDiscord]:    https://betterdiscord.app/
 [Replugged]:        https://replugged.dev/
 [Vencord]:          https://github.com/Vendicated/Vencord
+[Vesktop]:          https://github.com/Vencord/Vesktop
 
 [AltTextImprovementsPreview]: https://minidiscordthemes.github.io/Snippets/AltTextImprovements/preview.avif
 [AvatarDecorationCheckmarkPreview1]: https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/dm.avif
@@ -31,51 +32,75 @@
 # Snippets
 [![Total repository size][shield-repo-size]][github]
 
-***CSS snippets for Discord.***
+***CSS snippets for use by Discord client mod users and theme developers.***
 
 ## Catalogue
-### Working snippets ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
-| Snippet                                                  | Preview                                                                                                                                                                                 |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Alt Text Improvements](AltTextImprovements)             | ![preview][AltTextImprovementsPreview]                                                                                                                                                  |
+### Working snippets
+![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
+| Snippet                                                  |                                                                                                                                                                                 Preview |
+| :-------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [Alt Text Improvements](AltTextImprovements)             |                                                                                                                                                  ![preview][AltTextImprovementsPreview] |
 | [Avatar Decoration Checkmark](AvatarDecorationCheckmark) | ![preview][AvatarDecorationCheckmarkPreview1] ![preview][AvatarDecorationCheckmarkPreview2] ![preview][AvatarDecorationCheckmarkPreview3] ![preview][AvatarDecorationCheckmarkPreview4] |
-| [Billboard](Billboard)                                   | ![preview][BillboardPreview]                                                                                                                                                            |
-| [Channel List Width](ChannelListWidth)                   | ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2]                                                                                                               |
-| [Efficient Settings](EfficientSettings)                  | ![preview][EfficientSettingsPreview]                                                                                                                                                    |
-| [Image Link](ImageLink)                                  | ![preview][ImageLinkPreview]                                                                                                                                                            |
-| [Message Bar Grey Emoji](MessageBarGreyEmoji)            | ![preview][MessageBarGreyEmojiPreview]                                                                                                                                                  |
-| [Minimal Auth Apps](MinimalAuthApps)                     | ![preview][MinimalAuthAppsPreview]                                                                                                                                                      |
-| [Mode Indicator](ModeIndicator)                          | ![preview][ModeIndicatorPreview]                                                                                                                                                        |
-| [Mod Title](ModTitle)                                    | ![preview][ModTitlePreview]                                                                                                                                                             |
-| [Pill VC](PillVC)                                        | ![preview][PillVCPreview]                                                                                                                                                               |
-| [Role Tint](RoleTint)                                    | ![preview][RoleTintPreview]                                                                                                                                                             |
-| [Settings As Overlay](SettingsAsOverlay)                 | ![preview][SettingsAsOverlayPreview]                                                                                                                                                    |
-| [Show Original Link](ShowOriginalLink)                   | ![preview][ShowOriginalLinkPreview]                                                                                                                                                     |
-| [Split Message Bars](SplitMessageBars)                   | ![preview][SplitMessageBarsPreview]                                                                                                                                                     |
-| [Unread Shake](UnreadShake)                              | ![preview][UnreadShakePreview]                                                                                                                                                          |
+| [Billboard](Billboard)                                   |                                                                                                                                                            ![preview][BillboardPreview] |
+| [Channel List Width](ChannelListWidth)                   |                                                                                                               ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2] |
+| [Efficient Settings](EfficientSettings)                  |                                                                                                                                                    ![preview][EfficientSettingsPreview] |
+| [Image Link](ImageLink)                                  |                                                                                                                                                            ![preview][ImageLinkPreview] |
+| [Message Bar Grey Emoji](MessageBarGreyEmoji)            |                                                                                                                                                  ![preview][MessageBarGreyEmojiPreview] |
+| [Minimal Auth Apps](MinimalAuthApps)                     |                                                                                                                                                      ![preview][MinimalAuthAppsPreview] |
+| [Mode Indicator](ModeIndicator)                          |                                                                                                                                                        ![preview][ModeIndicatorPreview] |
+| [Mod Title](ModTitle)                                    |                                                                                                                                                             ![preview][ModTitlePreview] |
+| [Pill VC](PillVC)                                        |                                                                                                                                                               ![preview][PillVCPreview] |
+| [Role Tint](RoleTint)                                    |                                                                                                                                                             ![preview][RoleTintPreview] |
+| [Settings As Overlay](SettingsAsOverlay)                 |                                                                                                                                                    ![preview][SettingsAsOverlayPreview] |
+| [Show Original Link](ShowOriginalLink)                   |                                                                                                                                                     ![preview][ShowOriginalLinkPreview] |
+| [Split Message Bars](SplitMessageBars)                   |                                                                                                                                                     ![preview][SplitMessageBarsPreview] |
+| [Unread Shake](UnreadShake)                              |                                                                                                                                                          ![preview][UnreadShakePreview] |
 
-### Moved snippets ![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
+### Moved snippets
+![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
 - [Minimal Addon Cards](_dead/MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
 
-### Discontinued snippets ![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
+### Discontinued snippets
+![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
 - [Hide AKA](_dead/HideAKA)
 
 ## Usage
-To use a snippet, add the following to the top of your Quick / Custom CSS file:
-```css
-@import url('https://minidiscordthemes.github.io/Snippets/<snippet-name>/main.css');
-```
-Some snippets have additional customisation options. See the snippet's README for more information.
+See each snippet's README for the import, Replugged install link, Vencord online theme link, and customisation options.
 
 ### [BetterDiscord][BetterDiscord]
 1. Open `Settings` > `BetterDiscord` > `Custom CSS`.
+2. Add the `@import` to the top of your Custom CSS file.
+3. Add any `:root` customisation options to the end of your Custom CSS file.
 
 ### [Replugged][Replugged]
+#### Automatic theme
+1. Click the Replugged install link.
+2. Open `Settings` > `Replugged` > `Quick CSS`.
+3. Add any `:root` customisation options to the end of your Quick CSS file.
+#### Manual theme
+1. Download the `.asar` from [latest release](https://github.com/MiniDiscordThemes/Snippets/releases/latest).
+2. Place the `.asar` in your Replugged themes folder.
+    - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
+3. Click `Load Missing Themes` and toggle on the theme card.
+4. Open `Settings` > `Replugged` > `Quick CSS`.
+5. Add any `:root` customisation options to the end of your Quick CSS file.
+#### Quick CSS
 1. Open `Settings` > `Replugged` > `Quick CSS`.
+2. Add the `@import` to the top of your Quick CSS file.
+3. Add any `:root` customisation options to the end of your Quick CSS file.
 
-### [Vencord][Vencord]
+### [Vencord][Vencord] / [Vesktop][Vesktop]
+#### Online theme
+1. Add the Vencord online theme link to your Online Themes.
+    - `Settings` > `Vencord` > `Themes` > `Online Themes`
+2. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord`.
+3. Click `Open QuickCSS File`.
+4. Add any `:root` customisation options to the end of your QuickCSS file.
+#### QuickCSS
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord`.
 2. Click `Open QuickCSS File`.
+3. Add the `@import` to the top of your QuickCSS file.
+4. Add any `:root` customisation options to the end of your QuickCSS file.
 
 ## Contributing
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md).

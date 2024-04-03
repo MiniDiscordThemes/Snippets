@@ -8,12 +8,15 @@ Replaces full colour emojis with outline only emojis in the message bar placehol
 | ![Default Discord](default.avif) | ![Message Bar Grey Emoji applied to Discord](preview.avif) |
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.MessageBarGreyEmoji)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.MessageBarGreyEmoji.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/main.css
 ```

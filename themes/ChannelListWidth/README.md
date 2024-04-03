@@ -11,12 +11,15 @@ Improved custom channel list width and header height, with fixes for server bann
 | ![600px channel list](preview-wide.avif) | ![240px channel list](preview-narrow.avif) |
 
 ## Usage
-### Custom / Quick CSS
-Paste the following at the start:
+### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css");
 ```
-### Vencord Themes
+### Replugged automatic theme
+[Install now](https://replugged.dev/install?identifier=net.saltssaumure.ChannelListWidth)
+### Replugged manual theme
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.ChannelListWidth.asar)
+### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css
 ```
