@@ -16,23 +16,27 @@
         white-space: nowrap;
         font-family: var(--font-headline);
 
-        content: "Modified Discord";
+        content: var(--modtitle-text);
+    }
+}
 
-        :root:has(#vencord-css-core) & {
-            content: "Vencord";
-        }
-        :root:has(#vcd-css-core) & {
-            content: "Vesktop";
-        }
-        :root:has(link[href^="replugged"]) & {
-            content: "Replugged";
-        }
-        :root:has(bd-body) & {
-            content: "BetterDiscord";
-        }
-        :root:has(script[src^="chrome-extension://cpojbkbhfkkljmlojagocnbmiaagkhkn"])
-        {
-            content: "Shelter";
-        }
+:root {
+    --modtitle-text: "Modified Discord";
+
+    &:has(#vencord-css-core) {
+        --modtitle-text: "Vencord";
+    }
+    &:has(#vcd-css-core) {
+        --modtitle-text: "Vesktop";
+    }
+    &:has(link[href^="replugged"]) {
+        --modtitle-text: "Replugged";
+    }
+    &:has(bd-body) {
+        --modtitle-text: "BetterDiscord";
+    }
+    &:has(script[src^="chrome-extension://cpojbkbhfkkljmlojagocnbmiaagkhkn"])
+    {
+        --modtitle-text: "Shelter";
     }
 }

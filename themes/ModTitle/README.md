@@ -30,3 +30,11 @@ Changes the wordmark in the titlebar to the current client mod.
 ```
 https://minidiscordthemes.github.io/Snippets/ModTitle/main.css
 ```
+
+## Customisation
+Paste the following at the end of Custom / Quick CSS, then edit the value:
+```css
+:root {
+    --modtitle-text: "Custom text" !important;
+}
+```

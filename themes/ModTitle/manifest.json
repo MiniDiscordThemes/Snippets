@@ -1,7 +1,7 @@
 {
   "id": "net.saltssaumure.ModTitle",
   "name": "Mod Title",
-  "description": "Changes the wordmark in the titlebar to read 'Replugged'.",
+  "description": "Changes the wordmark in the titlebar to 'Replugged'. See GitHub for customisation options.",
   "author": [
     {
       "name": "Saltssaumure",
@@ -9,7 +9,7 @@
       "github": "Saltssaumure"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.ModTitle"
