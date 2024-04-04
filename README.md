@@ -1,6 +1,6 @@
-[shield-repo-size]: https://img.shields.io/github/repo-size/Saltssaumure/template-discord-theme?label=Repository&style=flat-square "Total size"
-[github]:           https://github.com/Saltssaumure/template-discord-theme
-[issues]:           https://github.com/Saltssaumure/template-discord-theme/issues
+[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/Snippets?label=Repository&style=flat-square "Total size"
+[github]:           https://github.com/MiniDiscordThemes/Snippets
+[issues]:           https://github.com/MiniDiscordThemes/Snippets/issues
 [discord]:          https://discord.gg/uy8nKQVatp
 
 [BetterDiscord]:    https://betterdiscord.app/
