@@ -17,7 +17,7 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
-  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/AvatarDecorationCheckmark",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/AvatarDecorationCheckmark",
   "image": [
     "https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/dm.avif",
     "https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/memberlist.avif",

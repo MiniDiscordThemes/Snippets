@@ -17,7 +17,7 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
-  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/ChannelListWidth",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ChannelListWidth",
   "image": [
     "https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-wide.avif",
     "https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-narrow.avif"

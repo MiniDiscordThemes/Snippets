@@ -17,6 +17,6 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
-  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/ModTitle",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ModTitle",
   "image": ["https://minidiscordthemes.github.io/Snippets/ModTitle/Replugged.avif"]
 }

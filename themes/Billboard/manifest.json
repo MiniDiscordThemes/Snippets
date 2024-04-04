@@ -17,6 +17,6 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
-  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/Billboard",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/Billboard",
   "image": ["https://minidiscordthemes.github.io/Snippets/Billboard/preview.avif"]
 }

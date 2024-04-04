@@ -17,7 +17,7 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
-  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/RoleTint",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/RoleTint",
   "image": [
     "https://minidiscordthemes.github.io/Snippets/RoleTint/previewDark.avif",
     "https://minidiscordthemes.github.io/Snippets/RoleTint/previewLight.avif",
