@@ -1,7 +1,7 @@
 {
   "id": "net.saltssaumure.ModeIndicator",
   "name": "Mode Indicator",
-  "description": "Adds a light / dark mode indicator on the titlebar.",
+  "description": "Adds a dark / light mode indicator on the titlebar. See GitHub for customisation options.",
   "author": [
     {
       "name": "Saltssaumure",

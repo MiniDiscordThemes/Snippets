@@ -1,4 +1,4 @@
-/* Light/dark mode indicator on title bar */
+// Light/dark mode indicator on titlebar
 .titleBar__710b0::after {
     position: absolute;
     top: -4px;
@@ -12,11 +12,12 @@
     color: var(--text-muted);
     font-family: var(--font-primary);
 
-    .theme-dark & {
-        content: "Dark mode";
-    }
+    content: var(--modeindicator-text);
+}
 
-    .theme-light & {
-        content: "Light mode";
-    }
+.theme-dark {
+    --modeindicator-text: "Dark mode";
+}
+.theme-light {
+    --modeindicator-text: "Light mode";
 }

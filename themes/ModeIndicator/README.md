@@ -3,7 +3,7 @@
 # Mode Indicator
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
-Adds a light / dark mode indicator on the titlebar. Especially useful for theme development.
+Adds a dark / light mode indicator on the titlebar. Especially useful for theme development.
 
 ![Mode Indicator in light and dark mode][preview]
 
@@ -19,4 +19,15 @@ Adds a light / dark mode indicator on the titlebar. Especially useful for theme 
 ### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/ModeIndicator/main.css
+```
+
+## Customisation
+Paste the following at the end of Custom / Quick CSS, then edit the values:
+```css
+.theme-dark {
+    --modeindicator-text: "Dark mode";
+}
+.theme-light {
+    --modeindicator-text: "Light mode";
+}
 ```
