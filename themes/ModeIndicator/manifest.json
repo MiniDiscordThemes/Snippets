@@ -1,7 +1,7 @@
 {
   "id": "net.saltssaumure.ModeIndicator",
-  "name": "Alt Text Improvements",
-  "description": "Adds a light / dark mode indicator on the title bar.",
+  "name": "Mode Indicator",
+  "description": "Adds a light / dark mode indicator on the titlebar.",
   "author": [
     {
       "name": "Saltssaumure",
@@ -9,7 +9,7 @@
       "github": "Saltssaumure"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.ModeIndicator"
@@ -17,6 +17,6 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
-  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/ModeIndicator",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ModeIndicator",
   "image": ["https://minidiscordthemes.github.io/Snippets/ModeIndicator/preview/preview.avif"]
 }
