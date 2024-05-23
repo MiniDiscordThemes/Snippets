@@ -16,9 +16,20 @@ export default {
     warning: (message: string) => {
         console.log(`  ${chalk.yellowBright("Warning")}\t${message}`);
     },
-    error: (message: string, error: any) => {
+    error: (message: string, error: any = "") => {
         console.log(`  ${chalk.redBright("Failed")}\t${message}`);
         console.log(error);
         process.exit(1);
+    },
+    // Sass compilation
+    changed: (message: string) => {
+        console.log(`  ${chalk.yellowBright("Change detected")}\t${message}`);
+    },
+    updated: (message: string) => {
+        console.log(`  ${chalk.greenBright("CSS compiled to")}\t${message}`);
+    },
+    sasserror: (message: string, error: any) => {
+        console.log(`  ${chalk.redBright("Failed")}\t${message}`);
+        console.log(error);
     }
 };

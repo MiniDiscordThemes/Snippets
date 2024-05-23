@@ -11,6 +11,7 @@
     "self:dev": "npx tsc -w",
     "lint": "prettier ./ --check",
     "lint:fix": "prettier ./ --write --log-level warn",
+    "dev:css": "node ./lib/watch.js",
     "build:css": "node ./lib/build.js",
     "build:rp": "replugged bundle theme",
     "release": "replugged release"
