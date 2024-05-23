@@ -35,7 +35,7 @@ const compileAndSaveCss = (dirSource: string, dirTarget: string) => {
     }
 };
 
-const convertAndSaveAvif = (fileSource: string, fileTarget: string) => {
+const convertAndSaveAvif = async (fileSource: string, fileTarget: string) => {
     const baseWithExt = getBaseWithExt(fileTarget, ".avif");
 
     try {
@@ -54,11 +54,11 @@ const convertAndSaveAvif = (fileSource: string, fileTarget: string) => {
     }
 };
 
-const convertAndSavePreviews = (dirSource: string, dirTarget: string) => {
+const convertAndSavePreviews = async (dirSource: string, dirTarget: string) => {
     // Find paths of jpg,png images
     let filesSource = globSync(`${dirSource}/*.{png,jpeg}`, { windowsPathsNoEscape: true });
     // Convert and save each image
-    filesSource.forEach((fileSource) => {
+    filesSource.map(async (fileSource) => {
         const fileTarget = fileSource.replace(dirSource, dirTarget).replace(path.extname(fileSource), ".avif");
         convertAndSaveAvif(fileSource, fileTarget);
     });
@@ -109,7 +109,7 @@ const snippetNames = ((dir) =>
         .map((dirent) => dirent.name))("themes");
 
 // Process each snippet
-const processSnippet = (snippetName: any) => {
+const processSnippet = async (snippetName: any) => {
     const dirSource = path.join("themes", snippetName);
     const dirTarget = path.join("themesdist", snippetName);
 
