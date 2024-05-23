@@ -17,6 +17,7 @@ Style based on [Discord Re-imagined (Concept)](https://www.youtube.com/watch?v=7
 ### `@import`
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/DiscordReimagined/main.css");
+@import url("https://discordstyles.github.io/HorizontalServerList/HorizontalServerList.theme.css");
 ```
 <!-- ### Replugged automatic theme
 [Install now](https://replugged.dev/install?identifier=net.saltssaumure.DiscordReimagined)
@@ -25,6 +26,7 @@ Style based on [Discord Re-imagined (Concept)](https://www.youtube.com/watch?v=7
 ### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/DiscordReimagined/main.css
+https://discordstyles.github.io/HorizontalServerList/HorizontalServerList.theme.css
 ```
 
 ## Customisation
