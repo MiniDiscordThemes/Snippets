@@ -1,9 +1,10 @@
+@use "../mixins" as *;
+
 // Members list
 .container_f79ab4 {
-    position: relative;
-    top: calc(-1 * var(--channellist-header-height));
-    height: calc(100% + var(--channellist-header-height));
+    @include hoist;
 
+    // Role header
     .membersGroup_cad095 {
         $margin: 8px;
         background: var(--background-secondary-alt);

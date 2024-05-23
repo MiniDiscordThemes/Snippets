@@ -1,8 +1,17 @@
+@import url("https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css");
+
 // Header
 .subtitleContainer_f50402 {
-    margin-right: 240px;
+    // Space for memberslist
+    .chat__52833:has(.container_f79ab4) & {
+        margin-right: 240px;
+    }
+    // Space for search results
+    .chat__52833:has(.searchResultsWrap__2e184) & {
+        margin-right: 418px;
+    }
 
-    .container__26baa {
+    @at-root .container__26baa {
         height: var(--channellist-header-height);
 
         // Tools
@@ -12,7 +21,7 @@
                 content: "";
                 width: 24px;
                 height: 24px;
-                mask: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22currentColor%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%2014a2%202%200%201%200%200-4%202%202%200%200%200%200%204m10-2a2%202%200%201%201-4%200%202%202%200%200%201%204%200m8%200a2%202%200%201%201-4%200%202%202%200%200%201%204%200%22%20clip-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E);
+                mask: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22black%22%20fill-rule%3D%22evenodd%22%20d%3D%22M4%2014a2%202%200%201%200%200-4%202%202%200%200%200%200%204m10-2a2%202%200%201%201-4%200%202%202%200%200%201%204%200m8%200a2%202%200%201%201-4%200%202%202%200%200%201%204%200%22%20clip-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E);
                 background: var(--interactive-normal);
                 margin: 0 8px;
                 cursor: pointer;
@@ -34,23 +43,6 @@
             // Help
             .anchor_c8ddc0 {
                 display: none;
-            }
-
-            // Search
-            .search__07df0 {
-                order: 1;
-                .searchBar__5a20a {
-                    background: transparent;
-                    &:not(:focus-within) {
-                        width: 24px;
-
-                        .iconContainer__9f124 {
-                            width: 24px;
-                            height: 24px;
-                            cursor: pointer;
-                        }
-                    }
-                }
             }
         }
     }

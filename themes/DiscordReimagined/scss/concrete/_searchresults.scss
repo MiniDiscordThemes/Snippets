@@ -1,0 +1,10 @@
+@use "../mixins" as *;
+
+// Search results
+.searchResultsWrap__2e184 {
+    @include hoist;
+
+    @at-root .searchHeader__4d70e {
+        height: var(--channellist-header-height);
+    }
+}

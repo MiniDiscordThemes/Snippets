@@ -1,0 +1,6 @@
+@mixin hoist {
+    position: relative;
+    top: calc(-1 * var(--channellist-header-height));
+    height: calc(100% + var(--channellist-header-height));
+    z-index: 100;
+}
