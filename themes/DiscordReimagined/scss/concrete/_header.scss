@@ -53,7 +53,7 @@
     &::before {
         display: none;
     }
-    .chatContent_f087cb::before {
+    @at-root :is(.chatContent_f087cb, .container_b92032)::before {
         content: "";
         position: absolute;
         display: block;

@@ -1,7 +1,7 @@
 // @import url("https://discordstyles.github.io/HorizontalServerList/HorizontalServerList.theme.css");
 
 // HSL unread pips
-#app-mount .guilds__2b93a [class*="pill"] {
+#app-mount#app-mount .guilds__2b93a [class*="pill"] {
     transform: rotate(270deg) translateY(50%);
     top: unset !important;
     bottom: calc(var(--server-size) / -1 + var(--server-size) / 2 - 8px);
