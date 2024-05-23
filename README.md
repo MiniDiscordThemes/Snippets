@@ -16,6 +16,8 @@
 [BillboardPreview]: https://minidiscordthemes.github.io/Snippets/Billboard/preview.avif
 [ChannelListWidthPreview1]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-wide.avif
 [ChannelListWidthPreview2]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-narrow.avif
+[DiscordReimaginedPreview1]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/preview.avif
+[DiscordReimaginedPreview2]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/previewColor.avif
 [EfficientSettingsPreview]: https://minidiscordthemes.github.io/Snippets/EfficientSettings/preview.avif
 [ImageLinkPreview]: https://minidiscordthemes.github.io/Snippets/ImageLink/preview.avif
 [MessageBarGreyEmojiPreview]: https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/preview.avif
@@ -51,6 +53,7 @@
 | [Avatar Decoration Checkmark](themes/AvatarDecorationCheckmark) | ![preview][AvatarDecorationCheckmarkPreview1] ![preview][AvatarDecorationCheckmarkPreview2] ![preview][AvatarDecorationCheckmarkPreview3] ![preview][AvatarDecorationCheckmarkPreview4] |
 |                  [Billboard](themes/Billboard)                  |                                                                              ![preview][BillboardPreview]                                                                               |
 |          [Channel List Width](themes/ChannelListWidth)          |                                                        ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2]                                                        |
+|          [DiscordReimagined](themes/DiscordReimagined)          |                                                       ![preview][DiscordReimaginedPreview1] ![preview][DiscordReimaginedPreview2]                                                       |
 |         [Efficient Settings](themes/EfficientSettings)          |                                                                          ![preview][EfficientSettingsPreview]                                                                           |
 |                 [Image Link](themes/ImageLink)                  |                                                                              ![preview][ImageLinkPreview]                                                                               |
 |      [Message Bar Grey Emoji](themes/MessageBarGreyEmoji)       |                                                                         ![preview][MessageBarGreyEmojiPreview]                                                                          |
@@ -119,8 +122,11 @@ See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 - <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with these snippets, just include the original license.
 
 ### Credits
-#### [Avatar Decoration Checkmark](AvatarDecorationCheckmark)
+#### [Avatar Decoration Checkmark](./themes/AvatarDecorationCheckmark/)
 - [sass-fairy](https://github.com/roydukkey/sass-fairy) by [roydukkey](https://github.com/roydukkey) - [MIT License](https://github.com/roydukkey/sass-fairy/blob/master/LICENSE)
+#### [DiscordReimagined](./themes/DiscordReimagined/)
+- [Discord Re-imagined (Concept)](https://www.youtube.com/watch?v=7gyZyg3jC2w) by Concept Central
+- [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) by [Gibbu](https://github.com/Gibbu) - [MIT License](https://github.com/DiscordStyles/HorizontalServerList/blob/master/LICENSE.md)
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.

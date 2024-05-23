@@ -1,0 +1,18 @@
+// Members list
+.container_f79ab4 {
+    position: relative;
+    top: calc(-1 * var(--channellist-header-height));
+    height: calc(100% + var(--channellist-header-height));
+
+    .membersGroup_cad095 {
+        $margin: 8px;
+        background: var(--background-secondary-alt);
+        border-radius: 4px;
+        margin: $margin;
+        margin-right: 0;
+        height: 40px - $margin;
+        line-height: 40px - $margin;
+        padding: 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,8 @@
+// Maps user editable vars to internal/import vars
+
+:root {
+    --systemcolor-bg-image: none;
+    --channellist-width: var(--reimagine-channellist-width);
+    --channellist-header-height: var(--reimagine-header-height);
+    --server-size: var(--reimagine-server-size);
+}
