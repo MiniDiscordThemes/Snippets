@@ -22,6 +22,7 @@
 [ImageLinkPreview]: https://minidiscordthemes.github.io/Snippets/ImageLink/preview.avif
 [MessageBarGreyEmojiPreview]: https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/preview.avif
 [MinimalAuthAppsPreview]: https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/preview.avif
+[MinimalSearchbarPreview]: https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/preview.avif
 [ModeIndicatorPreview]: https://minidiscordthemes.github.io/Snippets/ModeIndicator/preview.avif
 [ModTitlePreview1]: https://minidiscordthemes.github.io/Snippets/ModTitle/BetterDiscord.avif
 [ModTitlePreview2]: https://minidiscordthemes.github.io/Snippets/ModTitle/Replugged.avif
@@ -58,6 +59,7 @@
 |                 [Image Link](themes/ImageLink)                  |                                                                              ![preview][ImageLinkPreview]                                                                               |
 |      [Message Bar Grey Emoji](themes/MessageBarGreyEmoji)       |                                                                         ![preview][MessageBarGreyEmojiPreview]                                                                          |
 |           [Minimal Auth Apps](themes/MinimalAuthApps)           |                                                                           ![preview][MinimalAuthAppsPreview]                                                                            |
+|          [Minimal Searchbar](themes/MinimalSearchbar)           |                                                                           ![preview][MinimalSearchbarPreview]                                                                           |
 |             [Mode Indicator](themes/ModeIndicator)              |                                                                            ![preview][ModeIndicatorPreview]                                                                             |
 |                  [Mod Title](themes/ModTitle)                   |                                   ![preview][ModTitlePreview1] ![preview][ModTitlePreview2] ![preview][ModTitlePreview3] ![preview][ModTitlePreview4]                                   |
 |                    [Pill VC](themes/PillVC)                     |                                                                                ![preview][PillVCPreview]                                                                                |

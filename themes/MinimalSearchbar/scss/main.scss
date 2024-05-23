@@ -1,0 +1,20 @@
+// Search
+.search__07df0 {
+    order: var(--search-order, 1);
+
+    .searchBar__5a20a {
+        background: transparent;
+
+        // When not in action
+        &:not(:focus-within, :hover, :has(.clear__70411)) {
+            width: 24px;
+
+            // Search icon
+            .iconContainer__9f124 {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}
