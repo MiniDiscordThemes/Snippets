@@ -42,6 +42,9 @@
 ## Catalogue
 ### Working snippets
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
+<details>
+<summary>Click to view snippet gallery</summary>
+
 |                             Snippet                             |                                                                                         Preview                                                                                         |
 | :-------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |       [Alt Text Improvements](themes/AltTextImprovements)       |                                                                         ![preview][AltTextImprovementsPreview]                                                                          |
@@ -60,6 +63,7 @@
 |          [Show Original Link](themes/ShowOriginalLink)          |                                                                           ![preview][ShowOriginalLinkPreview]                                                                           |
 |          [Split Message Bars](themes/SplitMessageBars)          |                                                                           ![preview][SplitMessageBarsPreview]                                                                           |
 |               [Unread Shake](themes/UnreadShake)                |                                                                             ![preview][UnreadShakePreview]                                                                              |
+</details>
 
 ### Moved snippets
 ![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)

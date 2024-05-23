@@ -25,6 +25,11 @@ Example snippet structure:
     └── README.md
 ```
 
+## Commands
+- `pnpm i` - Install dependencies.
+- `pnpm dev:css <snippetName>` - Watch and compile a specific snippet's css to your Vesktop themes folder.
+- `pnpm build:css` - Build snippets including images to the `themesdist` folder.
+
 ## Improve a snippet
 1. Fork and clone this repository.
 2. Make your changes to the snippet files.
