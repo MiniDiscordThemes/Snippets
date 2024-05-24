@@ -4,7 +4,7 @@
 # Clippy Status
 ![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
 
-Become Clippy with this status style.
+Become Clippy with this status style for the new profile experiment.
 
 | Light mode                                    | Dark mode                                   |
 | --------------------------------------------- | ------------------------------------------- |
@@ -15,10 +15,10 @@ Become Clippy with this status style.
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/ClippyStatus/main.css");
 ```
-<!-- ### Replugged automatic theme
+### Replugged automatic theme
 [Install now](https://replugged.dev/install?identifier=net.saltssaumure.ClippyStatus)
 ### Replugged manual theme
-[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.ClippyStatus.asar) -->
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.ClippyStatus.asar)
 ### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/ClippyStatus/main.css

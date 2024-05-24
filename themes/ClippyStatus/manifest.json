@@ -1,0 +1,25 @@
+{
+  "id": "net.saltssaumure.ClippyStatus",
+  "name": "Clippy Status",
+  "description": "Become Clippy with this status style for the new profile experiment.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.ClippyStatus"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ClippyStatus",
+  "image": [
+    "https://minidiscordthemes.github.io/Snippets/ClippyStatus/preview-light.avif",
+    "https://minidiscordthemes.github.io/Snippets/ClippyStatus/preview-dark.avif"
+  ]
+}
