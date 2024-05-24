@@ -34,7 +34,7 @@
     &:has(.animatedContainer__0e828) {
         // Servers with boost goal
         &:has(.container_bc43c1) {
-            div[style="height: 12px;"] {
+            :not(.sectionDivider__9dbcb) + div[style="height: 12px;"] {
                 height: calc($banner-height - $channellist-header-height) !important;
             }
             div[style="height: 84px;"] {
@@ -44,7 +44,7 @@
 
         // Servers without boost goal
         & {
-            div[style="height: 12px;"] {
+            :not(.sectionDivider__9dbcb) + div[style="height: 12px;"] {
                 height: calc($banner-height - $channellist-header-height - 84px) !important;
             }
             div[style="height: 84px;"] {
