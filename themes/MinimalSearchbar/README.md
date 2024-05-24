@@ -12,10 +12,10 @@ Condenses the header searchbar into an icon when not in use.
 ```css
 @import url("https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css");
 ```
-<!-- ### Replugged automatic theme
+### Replugged automatic theme
 [Install now](https://replugged.dev/install?identifier=net.saltssaumure.MinimalSearchbar)
 ### Replugged manual theme
-[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.MinimalSearchbar.asar) -->
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.MinimalSearchbar.asar)
 ### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css
