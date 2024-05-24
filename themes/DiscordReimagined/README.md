@@ -19,10 +19,10 @@ Style based on [Discord Re-imagined (Concept)](https://www.youtube.com/watch?v=7
 @import url("https://minidiscordthemes.github.io/Snippets/DiscordReimagined/main.css");
 @import url("https://discordstyles.github.io/HorizontalServerList/HorizontalServerList.theme.css");
 ```
-<!-- ### Replugged automatic theme
+### Replugged automatic theme
 [Install now](https://replugged.dev/install?identifier=net.saltssaumure.DiscordReimagined)
 ### Replugged manual theme
-[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.DiscordReimagined.asar) -->
+[Download now](https://github.com/MiniDiscordThemes/Snippets/releases/latest/download/net.saltssaumure.DiscordReimagined.asar)
 ### Vencord online theme
 ```
 https://minidiscordthemes.github.io/Snippets/DiscordReimagined/main.css
