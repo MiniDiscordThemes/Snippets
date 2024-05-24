@@ -16,6 +16,8 @@
 [BillboardPreview]: https://minidiscordthemes.github.io/Snippets/Billboard/preview.avif
 [ChannelListWidthPreview1]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-wide.avif
 [ChannelListWidthPreview2]: https://minidiscordthemes.github.io/Snippets/ChannelListWidth/preview-narrow.avif
+[ClippyStatusPreview1]: https://minidiscordthemes.github.io/Snippets/ClippyStatus/preview-light.avif
+[ClippyStatusPreview2]: https://minidiscordthemes.github.io/Snippets/ClippyStatus/preview-dark.avif
 [DiscordReimaginedPreview1]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/preview.avif
 [DiscordReimaginedPreview2]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/previewColor.avif
 [EfficientSettingsPreview]: https://minidiscordthemes.github.io/Snippets/EfficientSettings/preview.avif
@@ -54,6 +56,7 @@
 | [Avatar Decoration Checkmark](themes/AvatarDecorationCheckmark) | ![preview][AvatarDecorationCheckmarkPreview1] ![preview][AvatarDecorationCheckmarkPreview2] ![preview][AvatarDecorationCheckmarkPreview3] ![preview][AvatarDecorationCheckmarkPreview4] |
 |                  [Billboard](themes/Billboard)                  |                                                                              ![preview][BillboardPreview]                                                                               |
 |          [Channel List Width](themes/ChannelListWidth)          |                                                        ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2]                                                        |
+|              [Clippy Status](themes/ClippyStatus)               |                                                            ![preview][ClippyStatusPreview1] ![preview][ClippyStatusPreview2]                                                            |
 |          [DiscordReimagined](themes/DiscordReimagined)          |                                                       ![preview][DiscordReimaginedPreview1] ![preview][DiscordReimaginedPreview2]                                                       |
 |         [Efficient Settings](themes/EfficientSettings)          |                                                                          ![preview][EfficientSettingsPreview]                                                                           |
 |                 [Image Link](themes/ImageLink)                  |                                                                              ![preview][ImageLinkPreview]                                                                               |

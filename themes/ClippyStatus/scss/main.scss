@@ -1,0 +1,75 @@
+@font-face {
+    font-family: w95;
+    src: url("https://saltssaumure.github.io/w9x-discord-theme/font/w95fa.woff2");
+}
+
+.userProfileOuter__35e59 {
+    .statusBubble__1a4c3,
+    .statusBubbleOuter__7e51b,
+    .statusBubbleOuter__7e51b::before {
+        background-color: rgb(255, 255, 204);
+    }
+
+    .statusBubbleOuter__7e51b {
+        $radius: 12px;
+        $borderwidth: 1px;
+        border-radius: $radius;
+        border: $borderwidth solid black;
+
+        &::before {
+            $arrow: "left";
+            $size: 6px;
+            $edge: 10px;
+
+            border: 1px solid black;
+            border-radius: 0;
+            inset: unset;
+
+            @if $arrow == "up" or $arrow == "down" {
+                width: $size;
+                height: $size * 2;
+                left: $edge;
+
+                @if $arrow == "up" {
+                    transform: skewY(60deg);
+                    top: -$size;
+                }
+                @if $arrow == "down" {
+                    transform: skewY(-60deg);
+                    bottom: -$size;
+                }
+            }
+
+            @if $arrow == "left" or $arrow == "right" {
+                height: $size;
+                width: $size * 2;
+                top: $edge;
+
+                @if $arrow == "left" {
+                    transform: skewX(60deg);
+                    left: -$size;
+                }
+                @if $arrow == "right" {
+                    transform: skewX(-60deg);
+                    right: -$size;
+                }
+            }
+        }
+
+        @at-root .statusBubble__1a4c3 {
+            border-radius: $radius - 2 * $borderwidth;
+            padding: 6px;
+            @at-root .content_faa8bf {
+                color: black;
+                @at-root .statusText__32d26 {
+                    color: inherit;
+                    font-family: "w95", var(--font-primary);
+                }
+            }
+        }
+
+        &::after {
+            display: none;
+        }
+    }
+}

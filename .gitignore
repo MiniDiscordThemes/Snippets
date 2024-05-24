@@ -13,3 +13,7 @@
 # Test
 /**/_test
 _test.*
+
+# Preview
+*.kra
+*.*~
