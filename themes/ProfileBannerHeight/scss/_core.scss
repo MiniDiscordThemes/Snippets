@@ -1,0 +1,10 @@
+// Hide overflowing banner
+.userPopoutInner_ac0960 {
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+        width: 100%;
+        height: 100%;
+    }
+}

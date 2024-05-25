@@ -1,0 +1,29 @@
+{
+  "id": "net.saltssaumure.ProfileBannerHeight",
+  "name": "Profile Banner Height",
+  "description": "Customisable profile banner height. See GitHub for customisation options.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.ProfileBannerHeight"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ProfileBannerHeight",
+  "image": [
+    "https://minidiscordthemes.github.io/Snippets/ProfileBannerHeight/preview-new1.avif",
+    "https://minidiscordthemes.github.io/Snippets/ProfileBannerHeight/preview-new2.avif",
+    "https://minidiscordthemes.github.io/Snippets/ProfileBannerHeight/preview-new3.avif",
+    "https://minidiscordthemes.github.io/Snippets/ProfileBannerHeight/preview-old1.avif",
+    "https://minidiscordthemes.github.io/Snippets/ProfileBannerHeight/preview-old2.avif",
+    "https://minidiscordthemes.github.io/Snippets/ProfileBannerHeight/preview-old3.avif"
+  ]
+}

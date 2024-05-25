@@ -1,0 +1,34 @@
+// New profile
+
+.biteSizeInnerThemed__5cdaf {
+    // Banner, icon, badges, status all wrapped in header
+    --banner-height-original: 105px;
+    --banner-height-desired: 65px;
+    --height-diff: calc(var(--banner-height-original) - var(--banner-height-desired));
+    --guff-height: 45px; // Height of everything but banner in header
+    --header-height-original: calc(var(--banner-height-original) + var(--guff-height));
+    --avatar-offset: 4px;
+
+    // Move header up
+    .header__725f2 {
+        position: absolute;
+        top: calc(-1 * var(--height-diff));
+
+        // Avatar
+        .userProfileOuterThemed_a425f3 & .clickable_bf76d2 {
+            top: calc(61px - var(--avatar-offset));
+            left: calc(22px - var(--avatar-offset));
+        }
+
+        // Status
+        .invisibleContainer__1e05d,
+        .visibleContainer_adf761.biteSize__4396a {
+            top: calc(var(--banner-height-original) - 10px);
+        }
+    }
+
+    // Margin fills space left by header
+    .body__489bc {
+        margin-top: calc(var(--header-height-original) - var(--height-diff));
+    }
+}
