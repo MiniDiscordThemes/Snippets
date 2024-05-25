@@ -12,6 +12,10 @@
         .avatarWrapper__0cd44 {
             top: calc(16px - var(--height-diff));
         }
+        .avatarPositionPremiumNoBanner__8beba {
+            top: calc(46px - var(--avatar-offset) - var(--height-diff));
+            left: calc(22px - var(--avatar-offset));
+        }
     }
 
     // Yes image banner
