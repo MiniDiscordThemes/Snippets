@@ -1,0 +1,22 @@
+{
+  "id": "net.saltssaumure.PrivacyScreen",
+  "name": "Privacy Screen",
+  "description": "Hides Discord behind a screen when tabbed out. See GitHub for customisation options.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.PrivacyScreen"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/PrivacyScreen",
+  "image": ["https://minidiscordthemes.github.io/Snippets/PrivacyScreen/preview.avif"]
+}
