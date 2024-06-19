@@ -4,8 +4,8 @@ $checkmark: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 // Wrapper and username selectors for each avatar decoration location
 $locations: (
     "profile": (
-        "wrapper": ".profileColors_ac6ab4",
-        "username": ":is(.nickname_c9ccf6, .container-3g15px .text-lg-semibold__84aef)"
+        "wrapper": ".userProfileInner_c69a7b",
+        "username": ":is(.nickname_c9ccf6, .container-3g15px, .text-lg\\/semibold_dc00ef)"
     ),
     "message": (
         "wrapper": ".contents_ec86aa",
@@ -17,7 +17,7 @@ $locations: (
     ),
     "member-list": (
         "wrapper": ".member_a31c43",
-        "username": ".username_d272d6"
+        "username": ".username_de3235"
     ),
     "dm-list": (
         "wrapper": ".channel_c91bad",
