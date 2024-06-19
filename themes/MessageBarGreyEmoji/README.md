@@ -6,8 +6,8 @@
 
 Replaces full-colour emojis with outline-only emojis in the message bar placeholder.
 
-| Before                           | After                                                      |
-| -------------------------------- | ---------------------------------------------------------- |
+| Before                      | After                                                 |
+| --------------------------- | ----------------------------------------------------- |
 | ![Default Discord][default] | ![Message Bar Grey Emoji applied to Discord][preview] |
 
 ## Usage
@@ -23,3 +23,7 @@ Replaces full-colour emojis with outline-only emojis in the message bar placehol
 ```
 https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/main.css
 ```
+
+## Credits
+### Fonts
+- [Noto Emoji](https://github.com/google/fonts/tree/main/ofl/notoemoji) by [Google](https://github.com/google) - OFL-1.1
