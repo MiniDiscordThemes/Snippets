@@ -13,7 +13,7 @@
     "lint:fix": "prettier ./ --write --log-level warn",
     "dev:css": "node ./lib/watch.js",
     "build:css": "node ./lib/build.js",
-    "build:rp": "replugged bundle theme",
+    "build:asar": "replugged bundle theme",
     "release": "replugged release"
   },
   "devDependencies": {

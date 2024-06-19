@@ -28,7 +28,7 @@ jobs:
         run: pnpm install
 
       - name: Build and bundle all snippets
-        run: pnpm run build:rp --all
+        run: pnpm run build:asar --all
 
       - name: Release bundled asars and jsons
         uses: ncipollo/release-action@v1
