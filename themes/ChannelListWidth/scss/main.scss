@@ -83,7 +83,9 @@
 }
 
 // Headers
+// Chat, DMs list, search results
 .container_e44302,
-.searchBar_f0963d {
-    height: $channellist-header-height;
+.searchBar_f0963d,
+.searchHeader_b7c924 {
+    height: var(--channellist-header-height);
 }
