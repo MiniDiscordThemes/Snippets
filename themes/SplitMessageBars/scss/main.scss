@@ -29,5 +29,9 @@
 
     .messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) & {
         left: auto;
+        .span_cf58b5 {
+            display: flex;
+            justify-content: center;
+        }
     }
 }
