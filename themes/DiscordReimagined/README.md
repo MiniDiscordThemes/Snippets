@@ -1,5 +1,3 @@
-
-
 [preview]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/preview.avif
 [previewColor]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/previewColor.avif
 [SystemColor]: https://github.com/MiniDiscordThemes/SystemColor
@@ -40,5 +38,15 @@ Paste the following at the end of Custom / Quick CSS, then edit the values:
 ```
 
 ## Credits
+### Sources
 - [Discord Re-imagined (Concept)](https://www.youtube.com/watch?v=7gyZyg3jC2w) by Concept Central
-- [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) by [Gibbu](https://github.com/Gibbu) - [MIT License](https://github.com/DiscordStyles/HorizontalServerList/blob/master/LICENSE.md)
+
+### Themes
+- [HorizontalServerList](https://github.com/DiscordStyles/HorizontalServerList) by [DiscordStyles](https://github.com/DiscordStyles) ([Gibbu](https://github.com/Gibbu)) - MIT license
+- [ChannelListWidth](https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ChannelListWidth) by [MiniDiscordThemes](https://github.com/MiniDiscordThemes) ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
+- [MinimalSearchbar](https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/MinimalSearchbar) by [MiniDiscordThemes](https://github.com/MiniDiscordThemes) ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
+- [ModTitle](https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ModTitle) by [MiniDiscordThemes](https://github.com/MiniDiscordThemes) ([Saltssaumure](https://github.com/Saltssaumure)) - MIT license
+
+### Fonts
+- [Wix Madefor](https://github.com/wix-incubator/wixmadefor) by [Wix](https://github.com/wix-incubator) - OFL-1.1
+- [Noto Emoji](https://github.com/google/fonts/tree/main/ofl/notoemoji) by [Google](https://github.com/google) - OFL-1.1

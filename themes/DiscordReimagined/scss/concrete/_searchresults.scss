@@ -3,8 +3,4 @@
 // Search results
 .searchResultsWrap_c2b47d {
     @include hoist;
-
-    @at-root .searchHeader_b7c924 {
-        height: var(--channellist-header-height);
-    }
 }
