@@ -27,5 +27,6 @@ Paste the following at the end of Custom / Quick CSS, then edit the values:
 :root {
     --privacy-bg-image: var(--privacy-discord-icon);
     --privacy-bg-color: var(--background-primary);
+    --privacy-bg-blend: difference;
 }
 ```
