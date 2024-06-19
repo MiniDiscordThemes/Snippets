@@ -1,6 +1,6 @@
 {
-  "id": "net.saltssaumure.DiscordReimagined",
-  "name": "Discord Reimagined",
+  "id": "net.saltssaumure.Reimagined",
+  "name": "Reimagined",
   "description": "Based on 'Discord Re-imagined (Concept)' by Concept Central: https://www.youtube.com/watch?v=7gyZyg3jC2w. See GitHub for customisation options.",
   "author": [
     {
@@ -12,7 +12,7 @@
   "version": "1.0.0",
   "updater": {
     "type": "store",
-    "id": "net.saltssaumure.DiscordReimagined"
+    "id": "net.saltssaumure.Reimagined"
   },
   "license": "MIT",
   "type": "replugged-theme",
