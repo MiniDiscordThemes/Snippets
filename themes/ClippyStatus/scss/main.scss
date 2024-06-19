@@ -3,14 +3,14 @@
     src: url("https://saltssaumure.github.io/w9x-discord-theme/font/w95fa.woff2");
 }
 
-.userProfileOuter__35e59 {
-    .statusBubble__1a4c3,
-    .statusBubbleOuter__7e51b,
-    .statusBubbleOuter__7e51b::before {
+.userProfileOuter_c69a7b {
+    .statusBubble_d0a252,
+    .statusBubbleOuter_d0a252,
+    .statusBubbleOuter_d0a252::before {
         background-color: rgb(255, 255, 204);
     }
 
-    .statusBubbleOuter__7e51b {
+    .statusBubbleOuter_d0a252 {
         $radius: 12px;
         $borderwidth: 1px;
         border-radius: $radius;
@@ -56,12 +56,12 @@
             }
         }
 
-        @at-root .statusBubble__1a4c3 {
+        @at-root .statusBubble_d0a252 {
             border-radius: $radius - 2 * $borderwidth;
             padding: 6px;
-            @at-root .content_faa8bf {
+            @at-root .content_d0a252 {
                 color: black;
-                @at-root .statusText__32d26 {
+                @at-root .statusText_d0a252 {
                     color: inherit;
                     font-family: "w95", var(--font-primary);
                 }

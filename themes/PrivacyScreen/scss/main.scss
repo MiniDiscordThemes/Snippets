@@ -4,7 +4,7 @@
     --privacy-bg-color: var(--background-primary);
 }
 
-.layers_a23c37::after {
+.layers_a01fb1::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -17,7 +17,7 @@
     transition: opacity 0.2s ease;
 }
 
-.app-focused .layers_a23c37::after {
+.app-focused .layers_a01fb1::after {
     opacity: 0;
     transition-duration: 1s;
     pointer-events: none;

@@ -1,48 +1,48 @@
 @import url("https://minidiscordthemes.github.io/Snippets/ChannelListWidth/main.css");
 
 // Channel sidebar
-.sidebar_e031be {
+.sidebar_a4d4d9 {
     $side-margin: 12px;
 
     // Server name
-    .name_e8e549 {
+    .name_fd6364 {
         font-family: var(--font-display);
     }
 
     // Channels
-    .scrollerBase_f742b2 {
+    .scrollerBase_eed6a8 {
         padding-left: $side-margin;
         padding-right: $side-margin !important;
 
         // Unread pips
-        .unread__48cf4 {
+        .unread_d8bfb3 {
             border-radius: var(--radius-xs);
             width: 8px;
         }
 
         // Channel icons
-        @at-root .iconContainer__6a580 {
+        @at-root .iconContainer_d8bfb3 {
             order: 1;
             margin-right: 0;
 
-            @at-root .containerDefault_ae2ea4.selected__11b62 &,
-                .containerDefault_ae2ea4:hover & {
+            @at-root .containerDefault_f6f816.selected_f6f816 &,
+                .containerDefault_f6f816:hover & {
                 display: none;
             }
         }
     }
 
     // User panel
-    .panels__58331 {
+    .panels_a4d4d9 {
         border-radius: 8px;
         overflow: hidden;
         margin: 0 $side-margin 24px;
 
-        .container_debb33 {
+        .container_b2ca13 {
             background-clip: padding-box;
 
             // Name
-            .title__4a7a9 {
+            .title_d1da5f {
                 font-family: var(--font-display);
             }
         }

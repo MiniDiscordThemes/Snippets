@@ -1,14 +1,14 @@
-.rolePill_f50ff5 {
+.rolePill_fa2f72 {
     padding: 0;
     overflow: hidden;
     position: relative;
 
-    .roleRemoveButton__20c70 {
+    .roleRemoveButton_e4010c {
         position: unset;
         width: 0%;
         height: 100%;
 
-        .roleCircle__61ad8 {
+        .roleCircle_a26d7b {
             border-radius: unset;
             margin: unset;
             position: absolute;
@@ -17,7 +17,7 @@
             mix-blend-mode: multiply;
         }
 
-        .roleRemoveIcon_c3913a {
+        .roleRemoveIcon_e4010c {
             background: var(--profile-role-pill-background-color);
             padding: 2px;
             border-radius: 50%;
@@ -29,16 +29,16 @@
         }
     }
 
-    .roleRemoveButton__20c70 + .roleName__851c9,
-    .roleIcon_aa2eb3 {
+    .roleRemoveButton_e4010c + .roleName_e4010c,
+    .roleIcon_e4010c {
         margin-left: 4px;
     }
 
-    .roleName__851c9 {
+    .roleName_e4010c {
         padding: 4px;
     }
 
-    .roleIcon_aa2eb3 {
+    .roleIcon_e4010c {
         position: relative;
         min-width: 16px;
         z-index: 1;

@@ -1,58 +1,58 @@
 // Old profile
 
-.userProfileInner__8ff35 {
+.userProfileInner_c69a7b {
     --height-diff: calc(var(--banner-height-original) - var(--banner-height-desired));
 
     // No image banner
-    &:where(:not(:has(.banner__6d414[style*="background-image"]))) {
+    &:where(:not(:has(.banner_c3e427[style*="background-image"]))) {
         --banner-height-original: 60px;
         --banner-height-desired: 60px;
 
         // Avatar
-        .avatarWrapper__0cd44 {
+        .avatarWrapper_f89da9 {
             top: calc(16px - var(--height-diff));
         }
-        .avatarPositionPremiumNoBanner__8beba {
+        .avatarPositionPremiumNoBanner_f89da9 {
             top: calc(46px - var(--avatar-offset) - var(--height-diff));
             left: calc(22px - var(--avatar-offset));
         }
     }
 
     // Yes image banner
-    &:where(:has(.banner__6d414[style*="background-image"])) {
+    &:where(:has(.banner_c3e427[style*="background-image"])) {
         --banner-height-original: 120px;
         --banner-height-desired: 70px;
 
         // Avatar
-        .avatarWrapper__0cd44 {
+        .avatarWrapper_f89da9 {
             top: calc(76px - var(--avatar-offset) - var(--height-diff));
             left: calc(22px - var(--avatar-offset));
         }
     }
 
     // No theme
-    .userProfileOuterUnthemed__9741c & {
+    .userProfileOuterUnthemed_c69a7b & {
         --avatar-offset: 0px;
     }
 
     // Yes theme
-    .userProfileOuterThemed_a425f3 & {
+    .userProfileOuterThemed_c69a7b & {
         --avatar-offset: 4px;
     }
 
     // Move banner up
-    .bannerSVGWrapper__8a38c:not(.header__725f2 .bannerSVGWrapper__8a38c) {
+    .bannerSVGWrapper_b32cc2:not(.header_c6e596 .bannerSVGWrapper_b32cc2) {
         position: absolute;
         top: calc(-1 * var(--height-diff));
     }
 
     // Badges
-    .profileBadges__1f2ab {
+    .profileBadges_f89da9 {
         position: absolute;
     }
 
     // Margin fills space left by header
-    .userPopoutOverlayBackground__3e7e6 {
+    .userPopoutOverlayBackground_c69a7b {
         --profile-badges-height: 30px;
         margin-top: calc(var(--banner-height-original) + var(--profile-badges-height) + 28px - var(--height-diff));
     }

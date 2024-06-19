@@ -2,39 +2,39 @@
 @use "./default";
 
 // Channels list
-.sidebar_e031be {
+.sidebar_a4d4d9 {
     width: $channellist-width;
 
     // Server name header
-    .headerContent__6fcc7 {
+    .headerContent_fd6364 {
         height: calc($channellist-header-height - 24px);
     }
 
     // Banner
-    .animatedContainer__0e828 {
+    .animatedContainer_fd6364 {
         height: $banner-height;
     }
 
     // Prevent banner overlapping outer
-    .animatedContainer__0e828,
-    .bannerImage_c73a57 {
+    .animatedContainer_fd6364,
+    .bannerImage_fd6364 {
         transform: none !important;
         min-height: $channellist-header-height;
     }
-    .bannerImage_c73a57,
-    .bannerImg_fe5c1b {
+    .bannerImage_fd6364,
+    .bannerImg_fd6364 {
         width: inherit;
     }
-    .bannerImg_fe5c1b {
+    .bannerImg_fd6364 {
         height: unset;
         min-height: $channellist-header-height;
     }
 
     // Resize banner-channels spacers in servers with banners
-    &:has(.animatedContainer__0e828) {
+    &:has(.animatedContainer_fd6364) {
         // Servers with boost goal
-        &:has(.container_bc43c1) {
-            :not(.sectionDivider__9dbcb) + div[style="height: 12px;"] {
+        &:has(.container_c75f85) {
+            :not(.sectionDivider_c43953) + div[style="height: 12px;"] {
                 height: calc($banner-height - $channellist-header-height) !important;
             }
             div[style="height: 84px;"] {
@@ -44,7 +44,7 @@
 
         // Servers without boost goal
         & {
-            :not(.sectionDivider__9dbcb) + div[style="height: 12px;"] {
+            :not(.sectionDivider_c43953) + div[style="height: 12px;"] {
                 height: calc($banner-height - $channellist-header-height - 84px) !important;
             }
             div[style="height: 84px;"] {
@@ -54,7 +54,7 @@
     }
 
     // Flexier user panel
-    .container_debb33 {
+    .container_b2ca13 {
         box-sizing: border-box;
         min-height: 53px;
         height: auto;
@@ -64,20 +64,20 @@
         flex-wrap: wrap-reverse;
         justify-content: center;
 
-        .avatarWrapper__500a6 {
+        .avatarWrapper_b2ca13 {
             flex: 2;
             max-width: fit-content;
             margin-right: 0;
         }
 
-        .horizontal__4848b {
+        .horizontal_bba380 {
             flex: 1 !important;
             justify-content: space-around;
         }
     }
 
     // DM list fix
-    .channel__0aef5 {
+    .channel_c91bad {
         max-width: unset;
     }
 }

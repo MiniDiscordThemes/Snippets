@@ -5,23 +5,23 @@ $checkmark: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 $locations: (
     "profile": (
         "wrapper": ".profileColors_ac6ab4",
-        "username": ":is(.nickname_db3773, .container-3g15px .text-lg-semibold__84aef)"
+        "username": ":is(.nickname_c9ccf6, .container-3g15px .text-lg-semibold__84aef)"
     ),
     "message": (
-        "wrapper": ".contents_d3ae0d",
-        "username": ".username__0b0e7:not(.vc-rdb-view .username__0b0e7)"
+        "wrapper": ".contents_ec86aa",
+        "username": ".username_ec86aa:not(.vc-rdb-view .username_ec86aa)"
     ),
     "dm-header": (
-        "wrapper": ".container_cd7d9c",
-        "username": ".header_abc647"
+        "wrapper": ".container_c2668b",
+        "username": ".header_c2668b"
     ),
     "member-list": (
-        "wrapper": ".member_aa4760",
+        "wrapper": ".member_a31c43",
         "username": ".username_d272d6"
     ),
     "dm-list": (
-        "wrapper": ".channel__0aef5",
-        "username": ".overflow__993fa"
+        "wrapper": ".channel_c91bad",
+        "username": ".overflow_c74e70"
     )
 );
 

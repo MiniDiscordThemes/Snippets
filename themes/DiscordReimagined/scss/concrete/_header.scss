@@ -1,21 +1,21 @@
 @import url("https://minidiscordthemes.github.io/Snippets/MinimalSearchbar/main.css");
 
 // Header
-.subtitleContainer_f50402 {
+.subtitleContainer_a7d72e {
     // Space for memberslist
-    .chat__52833:has(.container_f79ab4) & {
+    .chat_a7d72e:has(.container_cbd271) & {
         margin-right: 240px;
     }
     // Space for search results
-    .chat__52833:has(.searchResultsWrap__2e184) & {
+    .chat_a7d72e:has(.searchResultsWrap_c2b47d) & {
         margin-right: 418px;
     }
 
-    @at-root .container__26baa {
+    @at-root .container_e44302 {
         height: var(--channellist-header-height);
 
         // Tools
-        @at-root .toolbar__62fb5 {
+        @at-root .toolbar_e44302 {
             // Fake meatball icon
             &::before {
                 content: "";
@@ -35,13 +35,13 @@
                     display: block;
                 }
                 // Actual icons
-                .iconWrapper_de6cd1 {
+                .iconWrapper_e44302 {
                     display: none;
                 }
             }
 
             // Help
-            .anchor_c8ddc0 {
+            .anchor_af404b {
                 display: none;
             }
         }
@@ -49,11 +49,11 @@
 }
 
 // Move shadow to chat only
-.content__01e65 {
+.content_a7d72e {
     &::before {
         display: none;
     }
-    @at-root :is(.chatContent_f087cb, .container_b92032)::before {
+    @at-root :is(.chatContent_a7d72e, .container_a6d69a)::before {
         content: "";
         position: absolute;
         display: block;

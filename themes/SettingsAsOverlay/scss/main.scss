@@ -1,23 +1,23 @@
-.baseLayer__2b890.stop-animations {
+.baseLayer_d4b6c5.stop-animations {
     opacity: 1 !important;
     transform: scale(1) !important;
 }
 
-.layer_f7d46a:not(.baseLayer__2b890) {
+.layer_d4b6c5:not(.baseLayer_d4b6c5) {
     background: transparent;
     pointer-events: none;
     align-items: flex-end;
 }
 
-.standardSidebarView__12528 {
+.standardSidebarView_c25c6d {
     flex-direction: row-reverse;
     left: unset;
     pointer-events: auto;
     box-shadow: var(--elevation-high);
 }
 
-.sidebarRegionScroller__8113e,
-.sidebarRegion__36437,
-.contentRegion__08eba {
+.sidebarRegionScroller_c25c6d,
+.sidebarRegion_c25c6d,
+.contentRegion_c25c6d {
     flex: 0 0 auto;
 }
