@@ -3,7 +3,9 @@
 [SystemColor]: https://github.com/MiniDiscordThemes/SystemColor
 
 # Discord Reimagined
-![Status: working](https://img.shields.io/badge/status-working-green?style=flat-square)
+![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
+
+## **This snippet is now available as a theme at https://github.com/MiniDiscordThemes/DiscordReimagined.**
 
 Style based on [Discord Re-imagined (Concept)](https://www.youtube.com/watch?v=7gyZyg3jC2w) by Concept Central.
 

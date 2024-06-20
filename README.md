@@ -63,7 +63,6 @@
 |                  [Billboard](themes/Billboard)                  |                                                                                                          ![preview][BillboardPreview]                                                                                                           |
 |          [Channel List Width](themes/ChannelListWidth)          |                                                                                    ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2]                                                                                    |
 |              [Clippy Status](themes/ClippyStatus)               |                                                                                        ![preview][ClippyStatusPreview1] ![preview][ClippyStatusPreview2]                                                                                        |
-|         [Discord Reimagined](themes/DiscordReimagined)          |                                                                                   ![preview][DiscordReimaginedPreview1] ![preview][DiscordReimaginedPreview2]                                                                                   |
 |         [Efficient Settings](themes/EfficientSettings)          |                                                                                                      ![preview][EfficientSettingsPreview]                                                                                                       |
 |                 [Image Link](themes/ImageLink)                  |                                                                                                          ![preview][ImageLinkPreview]                                                                                                           |
 |      [Message Bar Grey Emoji](themes/MessageBarGreyEmoji)       |                                                                                                     ![preview][MessageBarGreyEmojiPreview]                                                                                                      |
@@ -83,11 +82,12 @@
 
 ### Moved snippets
 ![Status: moved](https://img.shields.io/badge/status-moved-yellow?style=flat-square)
-- [Minimal Addon Cards](_dead/MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
+- [Discord Reimagined](_retired/DiscordReimagined) → [MiniDiscordThemes/DiscordReimagined](https://github.com/MiniDiscordThemes/DiscordReimagined)
+- [Minimal Addon Cards](_retired/MinimalAddonCards) → [MiniDiscordThemes/MinimalAddonCards](https://github.com/MiniDiscordThemes/MinimalAddonCards)
 
 ### Discontinued snippets
 ![Status: obsolete](https://img.shields.io/badge/status-obsolete-red?style=flat-square)
-- [Hide AKA](_dead/HideAKA)
+- [Hide AKA](_retired/HideAKA)
 
 ## Usage
 See each snippet's README for the import, Replugged install link, Vencord online theme link, and customisation options.
