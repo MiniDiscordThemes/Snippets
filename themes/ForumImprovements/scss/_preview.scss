@@ -1,0 +1,23 @@
+// New post preview
+// Match position as closely as possible to the post editor
+.previewForm_c1668f {
+    padding: 0;
+    margin: 1px 12px 0 0;
+    border: 0;
+    outline: 2px solid var(--background-modifier-selected);
+    border-radius: var(--radius-xs);
+
+    // Prevent long no-whitespace text from overflowing
+    width: calc(100% - 24px - 78px - (2 * 12px));
+    .contentContainer_c1668f {
+        width: 100%;
+    }
+
+    // Do not add extra space for preview indicator
+    .previewModeIndicator_c1668f {
+        position: absolute;
+        pointer-events: none;
+        bottom: 4px;
+        right: 4px;
+    }
+}

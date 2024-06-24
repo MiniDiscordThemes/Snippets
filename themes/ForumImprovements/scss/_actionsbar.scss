@@ -1,0 +1,15 @@
+// Make post actions bar actually sticky
+.scrollerInner_e2e187 {
+    overflow: unset;
+
+    // Hide divider
+    .divider_af45f8 {
+        display: none;
+    }
+
+    // Actions bar always acts as header
+    .container_b385c8 {
+        box-shadow: var(--elevation-low);
+        border-top-color: transparent;
+    }
+}

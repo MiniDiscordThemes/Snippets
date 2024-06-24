@@ -1,0 +1,48 @@
+// Forum posts
+.mainCard_a6d69a {
+    &:hover {
+        transform: none;
+    }
+
+    // Image attachment in gallery view
+    // Don't stretch the image
+    .imageCover_a57509 {
+        object-fit: contain;
+        background: var(--background-secondary);
+    }
+
+    // Gif indicator, post tags
+    @at-root :is(.mediaIconsRow_a57509, .tagsRow_a57509) {
+        transition: opacity 0.2s;
+
+        // Hide content overlays on hover
+        .postBody_a57509:hover & {
+            opacity: 0;
+        }
+
+        // Replace gif icon with modern gif icon
+        .mediaIcon_a57509 {
+            background-image: url("https://discord.com/assets/c5a74fc51ff67682b11a.svg");
+            height: 22px;
+            path {
+                fill: transparent;
+            }
+        }
+    }
+
+    // Thumbnail attachment in list view
+    @at-root .thumbnailContainer_d331f1 {
+        // Center the thumbnail
+        .loadingOverlay_d4597d {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        // Stop alt text pushing thumbnail up
+        .altText_cf58b5 {
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}

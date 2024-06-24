@@ -1,0 +1,47 @@
+// New post attachments
+.popout_a15d29 {
+    height: calc(18px + var(--custom-forum-composer-attachments-attachment-size) + 24px);
+
+    @at-root .uploadContainer_df1eaf {
+        // Image attachment
+        .imageSmall_f847a3 {
+            border-radius: 12px 12px 0 0;
+
+            .spoilerContainer_a3d0f7 {
+                border-radius: 12px 12px 0 0;
+            }
+        }
+
+        // Attachment options
+        @at-root .actionBarContainer_df1eaf {
+            top: unset;
+            bottom: 0;
+
+            @at-root .smallActionBar_df1eaf {
+                transform: none;
+                opacity: 1;
+
+                @at-root .wrapper_ef319f {
+                    border-radius: 0 0 12px 12px;
+                }
+            }
+        }
+    }
+}
+
+// Small attachments
+.imageSmall_f847a3 {
+    // Non-image attachments
+    &.icon_f847a3 {
+        background-color: var(--background-primary);
+        background-size: 60%;
+    }
+
+    .spoilerContainer_a3d0f7 {
+        border-radius: 12px;
+
+        .spoilerWarning_a3d0f7 {
+            zoom: 0.7;
+        }
+    }
+}

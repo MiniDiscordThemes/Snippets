@@ -1,0 +1,39 @@
+// Tag filter bar
+.tagsContainer_a6d69a {
+    gap: 16px;
+    align-items: flex-start;
+
+    // Post sort order
+    .sortDropdown_a6d69a {
+    }
+
+    // Divider
+    .divider_a6d69a {
+        display: none;
+    }
+
+    // Tag list
+    .tagList_a6d69a {
+        height: auto;
+        max-height: 32px;
+        transition: max-height 0.2s ease;
+        &:is(:hover, :has(.selected_c993da)) {
+            max-height: 256px;
+        }
+
+        .tagListInner_a6d69a {
+            justify-content: center;
+        }
+    }
+
+    // See all tags
+    .tagsButton_a6d69a {
+        position: static;
+        margin-left: 0;
+    }
+
+    // See more tags (currently does nothing)
+    @at-root .tagsButtonPlaceholder_a6d69a {
+        display: none;
+    }
+}

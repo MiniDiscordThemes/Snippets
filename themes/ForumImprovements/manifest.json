@@ -1,0 +1,25 @@
+{
+  "id": "net.saltssaumure.ForumImprovements",
+  "name": "Forum Improvements",
+  "description": "A collection of forum improvements, details listed on GitHub.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "1.1.1",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.ForumImprovements"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ForumImprovements",
+  "image": [
+    "https://minidiscordthemes.github.io/Snippets/ForumImprovements/newpost-after.avif",
+    "https://minidiscordthemes.github.io/Snippets/ForumImprovements/tagfilter-after.avif"
+  ]
+}

@@ -1,0 +1,30 @@
+// New post tags bar
+.tagsContainer_c1668f {
+    align-items: flex-start;
+
+    // Tag icon
+    .tagsIcon_c1668f {
+        height: 24px;
+    }
+
+    // Tags list
+    .tagList_c1668f {
+        height: auto;
+        max-height: 24px;
+        transition: max-height 0.2s ease;
+        &:is(:hover, :has(.selected_c993da)) {
+            max-height: 192px;
+        }
+    }
+
+    // See more tags
+    .tagsButton_c1668f {
+        position: static;
+        margin-left: 0;
+    }
+
+    // ??? (currently does nothing)
+    @at-root .tagsButtonPlaceholder_c1668f {
+        display: none;
+    }
+}

@@ -21,6 +21,8 @@
 [DiscordReimaginedPreview1]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/preview.avif
 [DiscordReimaginedPreview2]: https://minidiscordthemes.github.io/Snippets/DiscordReimagined/previewColor.avif
 [EfficientSettingsPreview]: https://minidiscordthemes.github.io/Snippets/EfficientSettings/preview.avif
+[ForumImprovementsPreview1]: https://minidiscordthemes.github.io/Snippets/ForumImprovements/newpost-after.avif
+[ForumImprovementsPreview2]: https://minidiscordthemes.github.io/Snippets/ForumImprovements/tagfilter-after.avif
 [ImageLinkPreview]: https://minidiscordthemes.github.io/Snippets/ImageLink/preview.avif
 [MessageBarGreyEmojiPreview]: https://minidiscordthemes.github.io/Snippets/MessageBarGreyEmoji/preview.avif
 [MinimalAuthAppsPreview]: https://minidiscordthemes.github.io/Snippets/MinimalAuthApps/preview.avif
@@ -64,6 +66,7 @@
 |          [Channel List Width](themes/ChannelListWidth)          |                                                                                    ![preview][ChannelListWidthPreview1] ![preview][ChannelListWidthPreview2]                                                                                    |
 |              [Clippy Status](themes/ClippyStatus)               |                                                                                        ![preview][ClippyStatusPreview1] ![preview][ClippyStatusPreview2]                                                                                        |
 |         [Efficient Settings](themes/EfficientSettings)          |                                                                                                      ![preview][EfficientSettingsPreview]                                                                                                       |
+|         [Forum Improvements](themes/ForumImprovements)          |                                                                                   ![preview][ForumImprovementsPreview1] ![preview][ForumImprovementsPreview2]                                                                                   |
 |                 [Image Link](themes/ImageLink)                  |                                                                                                          ![preview][ImageLinkPreview]                                                                                                           |
 |      [Message Bar Grey Emoji](themes/MessageBarGreyEmoji)       |                                                                                                     ![preview][MessageBarGreyEmojiPreview]                                                                                                      |
 |           [Minimal Auth Apps](themes/MinimalAuthApps)           |                                                                                                       ![preview][MinimalAuthAppsPreview]                                                                                                        |
@@ -140,7 +143,7 @@ See each snippet's README for the import, Replugged install link, Vencord online
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## License
-[MIT license](LICENSE)
+This collection of snippets is licensed under the [MIT license](LICENSE).
 
 ### Credits
 See each snippet's README for credits.
