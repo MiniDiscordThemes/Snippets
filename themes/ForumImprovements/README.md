@@ -1,3 +1,4 @@
+[all]: https://minidiscordthemes.github.io/Snippets/ForumImprovements/all.avif
 [newpost-1]: https://minidiscordthemes.github.io/Snippets/ForumImprovements/newpost-before.avif
 [newpost-2]: https://minidiscordthemes.github.io/Snippets/ForumImprovements/newpost-after.avif
 [tagfilter-1]: https://minidiscordthemes.github.io/Snippets/ForumImprovements/tagfilter-before.avif
@@ -13,6 +14,8 @@ Various forum improvements.
 - View the whole image without clicking in gallery view.
 - No more jittering hovered posts.
 - ...and various bug fixes.
+
+[Overview of Forum Improvements applied to Discord][all]
 
 |           Post editor            |            Tag filter             |
 | :------------------------------: | :-------------------------------: |

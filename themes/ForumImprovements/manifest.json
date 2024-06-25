@@ -9,7 +9,7 @@
       "github": "Saltssaumure"
     }
   ],
-  "version": "1.1.1",
+  "version": "1.1.2",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.ForumImprovements"
@@ -19,6 +19,7 @@
   "main": "scss/main.scss",
   "source": "https://github.com/MiniDiscordThemes/Snippets/blob/main/themes/ForumImprovements",
   "image": [
+    "https://minidiscordthemes.github.io/Snippets/ForumImprovements/all.avif",
     "https://minidiscordthemes.github.io/Snippets/ForumImprovements/newpost-after.avif",
     "https://minidiscordthemes.github.io/Snippets/ForumImprovements/tagfilter-after.avif"
   ]
