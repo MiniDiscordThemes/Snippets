@@ -137,7 +137,7 @@ See each snippet's README for the import, Replugged install link, Vencord online
 2. Click `Open QuickCSS File`.
 3. Add the `@import` to the top of your QuickCSS file.
 4. Add any `:root` customisation options to the end of your QuickCSS file.
-<details><summary>Click to expand</summary>
+</details>
 
 ## Contributing
 See [CONTRIBUTING.md](.github/CONTRIBUTING.md).
