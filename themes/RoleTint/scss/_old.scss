@@ -7,14 +7,13 @@
     position: relative;
 
     // Remove role
-    @at-root .roleRemoveButton_e4010c {
+    .roleRemoveButton_e4010c {
         position: unset;
         width: 0%;
         height: 100%;
 
         // Role colour
-        // not @at-root to prevent role settings issue
-        @at-root .roleCircle_a26d7b {
+        .roleCircle_a26d7b {
             border-radius: unset;
             margin: unset;
             position: absolute;
