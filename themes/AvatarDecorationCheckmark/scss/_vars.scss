@@ -5,11 +5,11 @@ $checkmark: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 $locations: (
     "profile": (
         "wrapper": ".userProfileInner_c69a7b",
-        "username": ":is(.nickname_c9ccf6, .container-3g15px, .text-lg\\/semibold_dc00ef)"
+        "username": ":is(.nickname_c9ccf6, .container_c9ccf6, .text-lg\\/semibold_dc00ef, .nickname_c32acf)"
     ),
     "message": (
-        "wrapper": ".contents_ec86aa",
-        "username": ".username_ec86aa:not(.vc-rdb-view .username_ec86aa)"
+        "wrapper": ".contents_f9f2ca",
+        "username": ".username_f9f2ca:not(.vc-rdb-view .username_f9f2ca)"
     ),
     "dm-header": (
         "wrapper": ".container_c2668b",
