@@ -1,7 +1,7 @@
-// New profile experiment
+/// New profile experiment
 
 // Role pill
-.role_f9575e {
+.role_dfa8b6 {
     padding: 0;
     overflow: hidden;
     position: relative;
@@ -11,14 +11,14 @@
         margin: 0;
         align-self: flex-start;
 
-        @at-root .roleRemoveButton_f9575e {
+        @at-root .roleRemoveButton_dfa8b6 {
             position: unset;
             width: 0%;
             height: 100%;
 
             // Role colour
             // not @at-root to prevent role settings issue
-            .roleCircle_a26d7b {
+            .roleCircle__4f569 {
                 border-radius: unset;
                 margin: unset;
                 position: absolute;
@@ -29,7 +29,7 @@
             }
 
             // X icon
-            @at-root .roleRemoveIcon_f9575e {
+            @at-root .roleRemoveIcon_dfa8b6 {
                 background: var(--profile-role-pill-background-color);
                 padding: 2px;
                 border-radius: 50%;
@@ -43,19 +43,19 @@
     }
 
     // Role icon
-    @at-root .roleIcon_d5100b {
+    @at-root .roleIcon__1e6f1 {
         position: relative;
         min-width: 16px;
         z-index: 1;
     }
 
     // Role name
-    @at-root .roleName_f9575e {
+    @at-root .roleName_dfa8b6 {
         padding: 4px;
     }
 
     // First item after "Remove Role" div
-    @at-root :is(.role_f9575e > :first-child, .roleRemoveButton_f9575e) + :is(span, div) {
+    @at-root :is(.role_dfa8b6 > :first-child, .roleRemoveButton_dfa8b6) + :is(span, div) {
         margin-left: 4px;
     }
 }

@@ -1,23 +1,23 @@
-.baseLayer_d4b6c5.stop-animations {
+.baseLayer__960e4.stop-animations {
     opacity: 1 !important;
     transform: scale(1) !important;
 }
 
-.layer_d4b6c5:not(.baseLayer_d4b6c5) {
+.layer__960e4:not(.baseLayer__960e4) {
     background: transparent;
     pointer-events: none;
     align-items: flex-end;
 }
 
-.standardSidebarView_c25c6d {
+.standardSidebarView__23e6b {
     flex-direction: row-reverse;
     left: unset;
     pointer-events: auto;
     box-shadow: var(--elevation-high);
 }
 
-.sidebarRegionScroller_c25c6d,
-.sidebarRegion_c25c6d,
-.contentRegion_c25c6d {
+.sidebarRegionScroller__23e6b,
+.sidebarRegion__23e6b,
+.contentRegion__23e6b {
     flex: 0 0 auto;
 }

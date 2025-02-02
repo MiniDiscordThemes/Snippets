@@ -1,35 +1,35 @@
-.barBase_cf58b5 {
+.barBase__0f481 {
     --bar-height: 32px;
     --bar-edges: 16px;
 
-    .messagesWrapper_e2e187:has(.newMessagesBar_cf58b5):has(.jumpToPresentBar_cf58b5) & {
+    .messagesWrapper__36d07:has(.newMessagesBar__0f481):has(.jumpToPresentBar__0f481) & {
         justify-content: center;
         height: var(--bar-height);
         overflow: hidden;
         width: calc(50% - var(--bar-edges));
 
-        .barButtonBase_cf58b5 {
+        .barButtonBase__0f481 {
             text-align: center;
         }
 
-        &:hover .barButtonMain_cf58b5 {
+        &:hover .barButtonMain__0f481 {
             display: none;
         }
 
-        &:not(:hover) .barButtonAlt_cf58b5 {
+        &:not(:hover) .barButtonAlt__0f481 {
             display: none;
         }
     }
 }
 
-.newMessagesBar_cf58b5 {
+.newMessagesBar__0f481 {
     border-radius: 8px 8px 0 0;
     inset: auto var(--bar-edges) 0;
     padding-bottom: 8px;
 
-    .messagesWrapper_e2e187:has(.jumpToPresentBar_cf58b5) & {
+    .messagesWrapper__36d07:has(.jumpToPresentBar__0f481) & {
         left: auto;
-        .span_cf58b5 {
+        .span__0f481 {
             display: flex;
             justify-content: center;
         }

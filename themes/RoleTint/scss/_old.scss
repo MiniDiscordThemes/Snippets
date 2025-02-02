@@ -1,5 +1,3 @@
-// Old (current) profile
-
 // Role pill
 .rolePill_fa2f72 {
     padding: 0;
@@ -7,13 +5,13 @@
     position: relative;
 
     // Remove role
-    .roleRemoveButton_e4010c {
+    .roleRemoveButton_dfa8b6 {
         position: unset;
         width: 0%;
         height: 100%;
 
         // Role colour
-        .roleCircle_a26d7b {
+        .roleCircle__4f569 {
             border-radius: unset;
             margin: unset;
             position: absolute;
@@ -23,7 +21,7 @@
         }
 
         // X icon
-        @at-root .roleRemoveIcon_e4010c {
+        @at-root .roleRemoveIcon__48c1c {
             background: var(--profile-role-pill-background-color);
             padding: 2px;
             border-radius: 50%;
@@ -36,19 +34,19 @@
     }
 
     // Role icon
-    @at-root .roleIcon_e4010c {
+    @at-root .roleIcon__48c1c {
         position: relative;
         min-width: 16px;
         z-index: 1;
     }
 
     // Role name
-    @at-root .roleName_e4010c {
+    @at-root .roleName__48c1c {
         padding: 4px;
     }
 
     // First item after Remove role
-    @at-root .roleRemoveButton_e4010c + :is(.roleName_e4010c, .roleIcon_e4010c) {
+    @at-root .roleRemoveButton_dfa8b6 + :is(.roleName__48c1c, .roleIcon__48c1c) {
         margin-left: 4px;
     }
 }

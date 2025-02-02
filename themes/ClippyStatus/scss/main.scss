@@ -4,13 +4,13 @@
 }
 
 .userProfileOuter_c69a7b {
-    .statusBubble_d0a252,
-    .statusBubbleOuter_d0a252,
-    .statusBubbleOuter_d0a252::before {
+    .statusBubble_af9888,
+    .statusBubbleOuter_af9888,
+    .statusBubbleOuter_af9888::before {
         background-color: rgb(255, 255, 204);
     }
 
-    .statusBubbleOuter_d0a252 {
+    .statusBubbleOuter_af9888 {
         $radius: 12px;
         $borderwidth: 1px;
         border-radius: $radius;
@@ -56,12 +56,12 @@
             }
         }
 
-        @at-root .statusBubble_d0a252 {
+        @at-root .statusBubble_af9888 {
             border-radius: $radius - 2 * $borderwidth;
             padding: 6px;
-            @at-root .content_d0a252 {
+            @at-root .content_ab8609 {
                 color: black;
-                @at-root .statusText_d0a252 {
+                @at-root .statusText_ab8609 {
                     color: inherit;
                     font-family: "w95", var(--font-primary);
                 }

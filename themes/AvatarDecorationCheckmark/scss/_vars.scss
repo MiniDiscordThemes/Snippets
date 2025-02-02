@@ -5,23 +5,23 @@ $checkmark: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg"
 $locations: (
     "profile": (
         "wrapper": ".userProfileInner_c69a7b",
-        "username": ":is(.nickname_c9ccf6, .container_c9ccf6, .text-lg\\/semibold_dc00ef, .nickname_c32acf)"
+        "username": ":is(.nickname_c9ccf6, .container_c9ccf6, .text-lg\\/semibold_dc00ef, .nickname__63ed3)"
     ),
     "message": (
-        "wrapper": ".contents_f9f2ca",
-        "username": ".username_f9f2ca:not(.vc-rdb-view .username_f9f2ca)"
+        "wrapper": ".contents_c19a55",
+        "username": ".username_c19a55:not(.vc-rdb-view .username_c19a55)"
     ),
     "dm-header": (
-        "wrapper": ".container_c2668b",
-        "username": ".header_c2668b"
+        "wrapper": ".container__00de6",
+        "username": ".header__00de6"
     ),
     "member-list": (
-        "wrapper": ".member_a31c43",
-        "username": ".username_de3235"
+        "wrapper": ".member__5d473",
+        "username": ".username__703b9"
     ),
     "dm-list": (
-        "wrapper": ".channel_c91bad",
-        "username": ".overflow_c74e70"
+        "wrapper": ".channel__972a0",
+        "username": ".overflow__82b15"
     )
 );
 

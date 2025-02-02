@@ -5,7 +5,7 @@
     --privacy-bg-blend: difference;
 }
 
-.layers_a01fb1::after {
+.layers__160d8::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -18,7 +18,7 @@
     transition: opacity 0.2s ease;
 }
 
-.app-focused .layers_a01fb1::after {
+.app-focused .layers__160d8::after {
     opacity: 0;
     transition-duration: 1s;
     pointer-events: none;

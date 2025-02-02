@@ -1,6 +1,6 @@
 @use "./mixins";
 
-.mediaMosaicAltText_cf58b5 {
+.mediaMosaicAltText__0f481 {
     position: unset;
     width: 100%;
     line-height: 10px;
@@ -9,7 +9,7 @@
     @include mixins.reaction;
 }
 
-.mediaMosaicAltTextPopout_cf58b5 {
+.mediaMosaicAltTextPopout__0f481 {
     position: relative;
     top: -10px;
     user-select: text;
@@ -24,10 +24,10 @@
     }
 }
 
-.mediaMosaicAltTextPopoutTitle_cf58b5 {
+.mediaMosaicAltTextPopoutTitle__0f481 {
     display: none;
 }
 
-.imageContainer_cf58b5 {
+.imageContainer__0f481 {
     height: 1%;
 }

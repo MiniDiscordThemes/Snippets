@@ -1,16 +1,16 @@
 // Search
-.search_ff5f90 {
+.search__49676 {
     order: var(--search-order, 1);
 
-    .searchBar_a46bef {
+    .searchBar__97492 {
         background: transparent;
 
         // When not in action
-        &:not(:focus-within, :hover, :has(.clear_effbe2)) {
+        &:not(:focus-within, :hover, :has(.clear_fea832)) {
             width: 24px;
 
             // Search icon
-            .iconContainer_effbe2 {
+            .iconContainer_fea832 {
                 width: 24px;
                 height: 24px;
                 cursor: pointer;
